@@ -3,8 +3,10 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Chip } from "@/components/Chip";
 import { Button } from "@/components/Button";
+import { StrictGrader } from "@/components/StrictGrader";
 import { cn } from "@/lib/utils";
 import { VOCAB, VocabEntry, vocabByLesson } from "@/lib/vocab";
+import { gradeTypedVocab, GradeResult } from "@/lib/grader";
 
 const KEY = "thunder_vocab_v1";
 
@@ -32,6 +34,9 @@ export default function VocabPage() {
   const [filter, setFilter] = useState<"all" | "starred" | "unknown">("all");
   const [lessonFilter, setLessonFilter] = useState<number | "all">("all");
   const [flippedId, setFlippedId] = useState<string | null>(null);
+  const [strict, setStrict] = useState(false);
+  const [typed, setTyped] = useState<Record<string, string>>({});
+  const [graded, setGraded] = useState<Record<string, GradeResult>>({});
 
   useEffect(() => setMarked(loadMarked()), []);
 
@@ -97,7 +102,22 @@ export default function VocabPage() {
           active={filter === "unknown"}
           onClick={() => setFilter("unknown")}
         />
+        <FilterChip
+          label={strict ? "엄격 모드 ON" : "엄격 모드"}
+          active={strict}
+          onClick={() => {
+            setStrict((s) => !s);
+            setGraded({});
+            setTyped({});
+            setFlippedId(null);
+          }}
+        />
       </div>
+      {strict && (
+        <p className="text-[11px] text-ink-500 mb-3 leading-relaxed">
+          영어 단어를 보고 한국어 뜻을 직접 입력하세요. 비슷한 뜻은 정답 처리 안 해요 (클래스카드 불만 #1 반영).
+        </p>
+      )}
 
       <div className="flex gap-1.5 mb-5 flex-wrap">
         <LessonChip
@@ -122,11 +142,14 @@ export default function VocabPage() {
       ) : (
         <ul className="space-y-2">
           {items.map((v) => {
+            const key = `${v.word}-L${v.lesson}`;
             const known = marked.known.includes(v.word);
             const starred = marked.starred.includes(v.word);
             const flipped = flippedId === v.word;
+            const userInput = typed[v.word] ?? "";
+            const result = graded[v.word];
             return (
-              <li key={v.word}>
+              <li key={key}>
                 <div
                   className={cn(
                     "bg-white rounded-card p-4 border transition relative",
@@ -137,14 +160,15 @@ export default function VocabPage() {
                 >
                   <div className="flex items-start justify-between gap-3">
                     <button
-                      onClick={() => setFlippedId(flipped ? null : v.word)}
+                      onClick={() => !strict && setFlippedId(flipped ? null : v.word)}
                       className="flex-1 text-left"
+                      disabled={strict}
                     >
                       <div className="text-base font-bold text-ink-900 tracking-tight">
                         {v.word}
                       </div>
                       <AnimatePresence mode="wait">
-                        {flipped ? (
+                        {!strict && flipped ? (
                           <motion.div
                             key="back"
                             initial={{ opacity: 0, y: -4 }}
@@ -163,7 +187,7 @@ export default function VocabPage() {
                               💡 {v.mnemonic}
                             </div>
                           </motion.div>
-                        ) : (
+                        ) : !strict ? (
                           <motion.div
                             key="front"
                             initial={{ opacity: 0 }}
@@ -174,7 +198,7 @@ export default function VocabPage() {
                           >
                             탭하면 뜻이 보여요
                           </motion.div>
-                        )}
+                        ) : null}
                       </AnimatePresence>
                     </button>
                     <div className="flex flex-col gap-1.5 shrink-0">
@@ -196,7 +220,67 @@ export default function VocabPage() {
                     </div>
                   </div>
 
-                  {flipped && (
+                  {strict && (
+                    <div className="mt-3 space-y-2">
+                      {!result ? (
+                        <>
+                          <input
+                            type="text"
+                            value={userInput}
+                            onChange={(e) =>
+                              setTyped({ ...typed, [v.word]: e.target.value })
+                            }
+                            placeholder="한국어 뜻을 입력"
+                            aria-label={`${v.word} 뜻 입력`}
+                            className="w-full px-3 py-2 rounded-card border border-ink-200 text-sm bg-paper outline-none focus:border-ink-900"
+                          />
+                          <Button
+                            fullWidth
+                            disabled={!userInput.trim()}
+                            onClick={() => {
+                              const r = gradeTypedVocab(userInput, {
+                                answer: v.meaning,
+                                strict: v.strict,
+                                similar: v.similar,
+                                language: "ko",
+                              });
+                              setGraded({ ...graded, [v.word]: r });
+                              if (r === "strict") {
+                                if (!marked.known.includes(v.word))
+                                  toggleKnown(v.word);
+                              }
+                            }}
+                          >
+                            채점
+                          </Button>
+                        </>
+                      ) : (
+                        <>
+                          <StrictGrader
+                            result={result}
+                            userInput={userInput}
+                            correctAnswer={v.meaning}
+                          />
+                          <Button
+                            variant="secondary"
+                            fullWidth
+                            onClick={() => {
+                              const g = { ...graded };
+                              const t = { ...typed };
+                              delete g[v.word];
+                              delete t[v.word];
+                              setGraded(g);
+                              setTyped(t);
+                            }}
+                          >
+                            다시
+                          </Button>
+                        </>
+                      )}
+                    </div>
+                  )}
+
+                  {!strict && flipped && (
                     <div className="mt-3 flex gap-2">
                       <Button
                         variant={known ? "secondary" : "primary"}

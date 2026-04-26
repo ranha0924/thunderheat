@@ -5,12 +5,12 @@ import { cn } from "@/lib/utils";
 
 const TABS = [
   {
-    href: "/home",
-    label: "공부",
+    href: "/flow",
+    label: "오늘밤",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4 5a2 2 0 0 1 2-2h6v18H6a2 2 0 0 1-2-2V5z" />
-        <path d="M20 5a2 2 0 0 0-2-2h-6v18h6a2 2 0 0 0 2-2V5z" />
+        <circle cx="12" cy="12" r="9" />
+        <polyline points="12 7 12 12 15 14" />
       </svg>
     ),
   },
@@ -26,11 +26,13 @@ const TABS = [
     ),
   },
   {
-    href: "/cram",
-    label: "암기",
+    href: "/traps",
+    label: "함정",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" />
+        <path d="M12 9v4" />
+        <path d="M12 17h.01" />
+        <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
       </svg>
     ),
   },

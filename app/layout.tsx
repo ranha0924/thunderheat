@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import BottomTabBarConditional from "@/components/BottomTabBarConditional";
+import SleepCutoffModal from "@/components/SleepCutoffModal";
+import OnboardingChip from "@/components/OnboardingChip";
 
 export const metadata: Metadata = {
   title: "벼락치기 도우미",
@@ -23,6 +25,8 @@ export default function RootLayout({
         <div className="mx-auto w-full max-w-[420px] min-h-screen relative pb-[72px]">
           {children}
           <BottomTabBarConditional />
+          <SleepCutoffModal />
+          <OnboardingChip />
         </div>
       </body>
     </html>
