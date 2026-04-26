@@ -26,13 +26,11 @@ const TABS = [
     ),
   },
   {
-    href: "/results",
-    label: "통계",
+    href: "/cram",
+    label: "암기",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-        <line x1="6" y1="20" x2="6" y2="12" />
-        <line x1="12" y1="20" x2="12" y2="4" />
-        <line x1="18" y1="20" x2="18" y2="14" />
+        <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" />
       </svg>
     ),
   },

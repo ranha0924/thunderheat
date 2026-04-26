@@ -28,12 +28,19 @@ export default function Study() {
     const s = getState();
     setCombo(s.combo);
     setSessionXP(s.xp.sessionXP);
-    // build initial queue: 10 fresh + due weakness items
+    // build initial queue: due weakness + shuffled fresh, 12 total
     const dueIds = new Set(dueNow(s.weakness).map((w) => w.id));
     const dues = ALL.filter((q) => dueIds.has(q.id));
-    const fresh = ALL.filter((q) => !dueIds.has(q.id) && !s.progress[q.id]?.correct).slice(0, 10);
+    const freshPool = ALL.filter(
+      (q) => !dueIds.has(q.id) && !s.progress[q.id]?.correct,
+    );
+    const shuffled = [...freshPool].sort(() => Math.random() - 0.5);
+    const ROUND = 12;
+    const fresh = shuffled.slice(0, Math.max(0, ROUND - dues.length));
     let q = [...dues, ...fresh];
-    if (q.length === 0) q = ALL.slice(0, 10);
+    if (q.length === 0) {
+      q = [...ALL].sort(() => Math.random() - 0.5).slice(0, ROUND);
+    }
     setQueue(q);
   }, []);
 
