@@ -8,7 +8,7 @@
     "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
     "choices": ["흥미로운", "지루한", "혼란스러운", "당황스러운"],
     "answer": 0,
-    "explanation": "fascinating은 '매우 흥미로운, 매혹적인'. interesting의 강조형이다."
+    "explanation": "fascinating은 '매우 흥미로운, 매혹적인'. interesting의 강조형."
   },
   {
     "id": "L1_vocab_en_ko_1",
@@ -33,6 +33,61 @@
     "explanation": "responsive = 반응이 빠른, 즉각 반응하는. response(반응) + ive."
   },
   {
+    "id": "L1_vocab_en_ko_3",
+    "type": "vocab_en_ko",
+    "lesson": 1,
+    "word": "ancestor",
+    "context": "Wolves share the same common ancestor as dogs.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["후손", "조상", "동료", "경쟁자"],
+    "answer": 1,
+    "explanation": "ancestor = 조상, 선조. 반대말은 descendant(후손)."
+  },
+  {
+    "id": "L1_vocab_en_ko_4",
+    "type": "vocab_en_ko",
+    "lesson": 1,
+    "word": "thrive",
+    "context": "Many people believe that only the biggest or the strongest can survive and thrive.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["겨우 살아남다", "번성하다", "위협하다", "회피하다"],
+    "answer": 1,
+    "explanation": "thrive = 번성하다, 잘 자라다. survive(생존)+thrive(번영) 콤보."
+  },
+  {
+    "id": "L1_vocab_en_ko_5",
+    "type": "vocab_en_ko",
+    "lesson": 1,
+    "word": "extinction",
+    "context": "Without these characteristics, they could have faced extinction.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["전염병", "멸종", "탈출", "변형"],
+    "answer": 1,
+    "explanation": "extinction = 멸종. extinct(멸종된) 형용사형과 함께 외울 것."
+  },
+  {
+    "id": "L1_vocab_en_ko_6",
+    "type": "vocab_en_ko",
+    "lesson": 1,
+    "word": "alternative",
+    "context": "I propose an alternative view: kindness is the key to success.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["전통적인", "대안의", "절대적인", "주류의"],
+    "answer": 1,
+    "explanation": "alternative = 대안의, 대안. alter(바꾸다) 어원."
+  },
+  {
+    "id": "L1_vocab_en_ko_7",
+    "type": "vocab_en_ko",
+    "lesson": 1,
+    "word": "harmonize",
+    "context": "Each flower adds to the beauty when it harmonizes with the others.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["충돌하다", "조화를 이루다", "지배하다", "분리되다"],
+    "answer": 1,
+    "explanation": "harmonize = 조화를 이루다. harmony(조화)의 동사형."
+  },
+  {
     "id": "L1_vocab_ko_en_0",
     "type": "vocab_ko_en",
     "lesson": 1,
@@ -51,6 +106,46 @@
     "choices": ["ancient", "ancestor", "answer", "anchor"],
     "answer": 1,
     "explanation": "ancestor = 조상. ancient(고대의)와 헷갈리지 말 것."
+  },
+  {
+    "id": "L1_vocab_ko_en_2",
+    "type": "vocab_ko_en",
+    "lesson": 1,
+    "meaning": "협력, 협동",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["cooperation", "competition", "construction", "communication"],
+    "answer": 0,
+    "explanation": "cooperation = 협력. co(함께) + operate(운영) → 함께 일함."
+  },
+  {
+    "id": "L1_vocab_ko_en_3",
+    "type": "vocab_ko_en",
+    "lesson": 1,
+    "meaning": "친절함, 다정함",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["kindness", "kingdom", "kinship", "knowledge"],
+    "answer": 0,
+    "explanation": "kindness = 친절함. 본문 핵심 키워드. kind(친절한) + ness."
+  },
+  {
+    "id": "L1_vocab_ko_en_4",
+    "type": "vocab_ko_en",
+    "lesson": 1,
+    "meaning": "위치를 찾다, ~에 두다",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["local", "locate", "location", "locker"],
+    "answer": 1,
+    "explanation": "locate = 위치를 찾다(동사). 'have trouble locating' 형태로 자주 출제."
+  },
+  {
+    "id": "L1_vocab_ko_en_5",
+    "type": "vocab_ko_en",
+    "lesson": 1,
+    "meaning": "특성, 특징",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["character", "characteristic", "charge", "charm"],
+    "answer": 1,
+    "explanation": "characteristic = 특성/특징(명사). character는 '인물·성격'."
   },
   {
     "id": "L1_blank_0",
@@ -73,6 +168,26 @@
     "explanation": "have trouble (in) V-ing = '~하는 데 어려움을 겪다'. 동명사 형태."
   },
   {
+    "id": "L1_blank_2",
+    "type": "blank",
+    "lesson": 1,
+    "sentence": "Dr. Hare's ability to read human gestures allowed dogs ___ better than wolves.",
+    "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+    "choices": ["perform", "performing", "to perform", "performed"],
+    "answer": 2,
+    "explanation": "allow + 목적어 + to부정사 = '~가 …하게 하다'. 5형식 단골 함정."
+  },
+  {
+    "id": "L1_blank_3",
+    "type": "blank",
+    "lesson": 1,
+    "sentence": "From the common ancestor, those that acted friendly toward humans evolved into dogs, and those ___ didn't became wolves.",
+    "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+    "choices": ["who", "which", "that", "whose"],
+    "answer": 2,
+    "explanation": "선행사 those(대명사) + 관계대명사 that. 본문 표현 그대로."
+  },
+  {
     "id": "L1_grammar_ox_0",
     "type": "grammar_ox",
     "lesson": 1,
@@ -81,6 +196,16 @@
     "choices": ["hiding", "hidden"],
     "answer": 1,
     "explanation": "with + 명사 + p.p.(수동, ~된 채로). 음식이 숨겨지는 거니까 hidden."
+  },
+  {
+    "id": "L1_grammar_ox_1",
+    "type": "grammar_ox",
+    "lesson": 1,
+    "sentence": "Dogs share the same common ancestor as wolves, (A) developed communication skills with humans.",
+    "question": "(A)에 들어갈 말로 어법상 옳은 것은?",
+    "choices": ["have", "having"],
+    "answer": 1,
+    "explanation": "분사구문. 주어 dogs와 능동 관계이므로 V-ing(having)."
   },
   {
     "id": "L1_grammar_5_0",
@@ -93,6 +218,16 @@
     "explanation": "(1) to seeing → to see. 'to + 동사원형'(목적의 부정사). 동명사 형태 X."
   },
   {
+    "id": "L1_grammar_5_1",
+    "type": "grammar_5",
+    "lesson": 1,
+    "passage": "Neanderthals (1) existed together with Homo sapiens until about 40,000 years ago, and they were known (2) being intelligent and physically strong. However, Homo sapiens had well-developed muscles and broad shoulders. (3) Despite these attributes, it was Homo sapiens (4) who ultimately survived and thrived. Our ancestors lived in larger communities (5) that promoted cooperation.",
+    "question": "다음 글의 밑줄 친 부분 중 어법상 틀린 것은?",
+    "choices": ["(1) existed", "(2) being", "(3) Despite", "(4) who", "(5) that"],
+    "answer": 1,
+    "explanation": "(2) being → to be. 'be known to V'(~로 알려져 있다)는 to부정사 사용."
+  },
+  {
     "id": "L1_summary_0",
     "type": "summary",
     "lesson": 1,
@@ -101,6 +236,16 @@
     "choices": ["힘", "지능", "친절함", "도구"],
     "answer": 2,
     "explanation": "본문 핵심은 'kindness is the key to success'. 친절함이 답."
+  },
+  {
+    "id": "L1_summary_1",
+    "type": "summary",
+    "lesson": 1,
+    "summary": "개와 늑대는 같은 조상에서 갈라졌지만, 인간 제스처에 ___ 종이 개로 진화했고 그 친화성이 생존에 유리했다.",
+    "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+    "choices": ["적대적인", "무관심한", "반응한", "두려워한"],
+    "answer": 2,
+    "explanation": "Hare 박사 실험: 인간 손짓에 반응한(responsive) 종이 개. 늑대는 무시(at random)."
   },
   {
     "id": "L1_topic_0",
@@ -114,7 +259,21 @@
       "Edward Wilson's career as a biologist"
     ],
     "answer": 1,
-    "explanation": "본문은 '친절함·협력이 생존의 열쇠'를 개·보노보·사피엔스 사례로 입증한다."
+    "explanation": "본문은 '친절함·협력이 생존의 열쇠'를 개·보노보·사피엔스 사례로 입증."
+  },
+  {
+    "id": "L1_topic_1",
+    "type": "topic",
+    "lesson": 1,
+    "question": "Brian Hare 박사의 실험이 보여준 것으로 가장 적절한 것은?",
+    "choices": [
+      "wolves' superior hunting skills",
+      "dogs' ability to read human gestures",
+      "the difficulty of training wild animals",
+      "genetic similarities between dogs and wolves"
+    ],
+    "answer": 1,
+    "explanation": "두 컵 실험: 개는 손짓을 읽고 음식을 찾고, 늑대는 무작위로 골랐다."
   },
   {
     "id": "L1_title_0",
@@ -131,6 +290,107 @@
     "explanation": "본문 핵심은 '친절함이 생존의 숨은 힘'. (2)가 함축적으로 본문을 담는다."
   },
   {
+    "id": "L2_vocab_en_ko_0",
+    "type": "vocab_en_ko",
+    "lesson": 2,
+    "word": "whakapapa",
+    "context": "Nani Tama wanted to finish recording the whakapapa, the genealogy of our family.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["전통 노래", "가계도, 족보", "기도문", "약속"],
+    "answer": 1,
+    "explanation": "whakapapa = 마오리어로 '가계도, 족보(genealogy)'. L2 핵심 키워드."
+  },
+  {
+    "id": "L2_vocab_en_ko_1",
+    "type": "vocab_en_ko",
+    "lesson": 2,
+    "word": "chanting",
+    "context": "We traveled all night, listening to Nani chanting in the darkness.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["속삭이는", "찬송하는, 읊는", "잠드는", "다투는"],
+    "answer": 1,
+    "explanation": "chant = 단조롭게 읊다(찬송, 구호). chanting은 진행형."
+  },
+  {
+    "id": "L2_vocab_en_ko_2",
+    "type": "vocab_en_ko",
+    "lesson": 2,
+    "word": "determined",
+    "context": "Nani Tama was determined to finish his work despite his weakness.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["좌절한", "굳게 결심한", "혼란스러운", "성급한"],
+    "answer": 1,
+    "explanation": "determined = 굳게 결심한, 단호한. determine(결정하다) + ed."
+  },
+  {
+    "id": "L2_vocab_ko_en_0",
+    "type": "vocab_ko_en",
+    "lesson": 2,
+    "meaning": "절망",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["despite", "despair", "deserve", "describe"],
+    "answer": 1,
+    "explanation": "despair = 절망(명사·동사). despite(~에도 불구하고)와 헷갈리지 말 것."
+  },
+  {
+    "id": "L2_vocab_ko_en_1",
+    "type": "vocab_ko_en",
+    "lesson": 2,
+    "meaning": "세대 (한 세대)",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["generator", "generation", "general", "generous"],
+    "answer": 1,
+    "explanation": "generation = 세대. gen(낳다) + 명사형."
+  },
+  {
+    "id": "L2_blank_0",
+    "type": "blank",
+    "lesson": 2,
+    "sentence": "It took Nani Tama almost two years ___ most of the whakapapa.",
+    "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+    "choices": ["gathering", "to gather", "gathered", "gathers"],
+    "answer": 1,
+    "explanation": "It takes 시간 to V = '~하는 데 시간이 걸리다'. to부정사 형태."
+  },
+  {
+    "id": "L2_grammar_ox_0",
+    "type": "grammar_ox",
+    "lesson": 2,
+    "sentence": "I could not help but (A) him to the car.",
+    "question": "(A)에 들어갈 말로 어법상 옳은 것은?",
+    "choices": ["carry", "carrying"],
+    "answer": 0,
+    "explanation": "cannot help but + 동사원형 = '~할 수밖에 없다'. (= cannot help V-ing)"
+  },
+  {
+    "id": "L2_topic_0",
+    "type": "topic",
+    "lesson": 2,
+    "question": "윗글의 주제로 가장 적절한 것은?",
+    "choices": [
+      "the determination to fulfill important unfinished tasks",
+      "the difficulty of caring for elderly relatives",
+      "the value of traditional Maori music",
+      "the healing power of long road trips"
+    ],
+    "answer": 0,
+    "explanation": "Nani Tama가 병중에도 가계도를 끝내려는 결의가 본문 핵심."
+  },
+  {
+    "id": "L2_title_0",
+    "type": "title",
+    "lesson": 2,
+    "question": "Nani Tama의 성격으로 가장 적절한 것은?",
+    "choices": [
+      "impatient and easily irritated",
+      "determined and strong-willed",
+      "fearful and dependent",
+      "selfless and helpful"
+    ],
+    "answer": 1,
+    "explanation": "병중에도 일을 끝내겠다며 일어나는 모습 → determined and strong-willed."
+  },
+  {
     "id": "L4_vocab_en_ko_0",
     "type": "vocab_en_ko",
     "lesson": 4,
@@ -140,6 +400,61 @@
     "choices": ["미미한", "상당한", "잠재적인", "지속적인"],
     "answer": 1,
     "explanation": "substantial = 상당한, 실질적인. sub(아래) + stand(서다) 어원."
+  },
+  {
+    "id": "L4_vocab_en_ko_1",
+    "type": "vocab_en_ko",
+    "lesson": 4,
+    "word": "extraction",
+    "context": "Only 0.2 percent of a coffee bean is used in the extraction process.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["압축", "추출", "혼합", "포장"],
+    "answer": 1,
+    "explanation": "extraction = 추출. extract(뽑아내다) + ion."
+  },
+  {
+    "id": "L4_vocab_en_ko_2",
+    "type": "vocab_en_ko",
+    "lesson": 4,
+    "word": "potent",
+    "context": "Methane is approximately 25 times more potent than CO2.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["약한", "강력한", "흔한", "비슷한"],
+    "answer": 1,
+    "explanation": "potent = 강력한, 효력 있는. potential(잠재적)과 헷갈리지 말 것."
+  },
+  {
+    "id": "L4_vocab_en_ko_3",
+    "type": "vocab_en_ko",
+    "lesson": 4,
+    "word": "incinerate",
+    "context": "Some SCGs are incinerated instead of being buried.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["매립하다", "소각하다", "포장하다", "재활용하다"],
+    "answer": 1,
+    "explanation": "incinerate = 소각하다. cinder(재) 어원."
+  },
+  {
+    "id": "L4_vocab_en_ko_4",
+    "type": "vocab_en_ko",
+    "lesson": 4,
+    "word": "sustainable",
+    "context": "Encouraging more sustainable methods of enjoying coffee.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["지속 가능한", "수익성 있는", "전통적인", "값싼"],
+    "answer": 0,
+    "explanation": "sustainable = 지속 가능한. sustain(유지하다) + able."
+  },
+  {
+    "id": "L4_vocab_en_ko_5",
+    "type": "vocab_en_ko",
+    "lesson": 4,
+    "word": "impurities",
+    "context": "These grounds are processed to remove impurities and dried out.",
+    "question": "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    "choices": ["향료", "불순물", "수분", "포장재"],
+    "answer": 1,
+    "explanation": "impurities = 불순물(복수형). pure(순수한)의 반대 + ity + s."
   },
   {
     "id": "L4_vocab_ko_en_0",
@@ -152,6 +467,36 @@
     "explanation": "fertilizer = 비료. fertile(비옥한) + izer."
   },
   {
+    "id": "L4_vocab_ko_en_1",
+    "type": "vocab_ko_en",
+    "lesson": 4,
+    "meaning": "온실 가스",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["greenhouse gas", "greenland", "greenway", "greentree"],
+    "answer": 0,
+    "explanation": "greenhouse gas = 온실 가스. methane(메탄)이 대표적."
+  },
+  {
+    "id": "L4_vocab_ko_en_2",
+    "type": "vocab_ko_en",
+    "lesson": 4,
+    "meaning": "재사용 가능한",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["renewable", "reusable", "removable", "rentable"],
+    "answer": 1,
+    "explanation": "reusable = 재사용 가능한. re(다시) + use + able. renewable(재생 가능)과 구분."
+  },
+  {
+    "id": "L4_vocab_ko_en_3",
+    "type": "vocab_ko_en",
+    "lesson": 4,
+    "meaning": "흡수하다",
+    "question": "다음 뜻에 해당하는 영어 단어는?",
+    "choices": ["abandon", "absorb", "abuse", "abstract"],
+    "answer": 1,
+    "explanation": "absorb = 흡수하다. ab(~로) + sorb(빨아들이다)."
+  },
+  {
     "id": "L4_blank_0",
     "type": "blank",
     "lesson": 4,
@@ -160,6 +505,26 @@
     "choices": ["reduce", "reduced", "reducing", "to reduce"],
     "answer": 2,
     "explanation": "분사구문 (and reduces ...). 주어가 동일하므로 V-ing 형태인 reducing."
+  },
+  {
+    "id": "L4_blank_1",
+    "type": "blank",
+    "lesson": 4,
+    "sentence": "There they break down, ___ methane, a greenhouse gas.",
+    "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+    "choices": ["release", "released", "releasing", "to release"],
+    "answer": 2,
+    "explanation": "분사구문 (and release ...). 주어 they와 능동 관계 → V-ing."
+  },
+  {
+    "id": "L4_blank_2",
+    "type": "blank",
+    "lesson": 4,
+    "sentence": "Some SCGs are incinerated instead of ___ buried.",
+    "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+    "choices": ["be", "being", "to be", "are"],
+    "answer": 1,
+    "explanation": "전치사 instead of + 동명사. 수동 의미이므로 being p.p. 형태."
   },
   {
     "id": "L4_grammar_ox_0",
@@ -172,6 +537,26 @@
     "explanation": "주어 SCGs는 복수. 동사도 are. (괄호 약어 다음 단/복수 함정.)"
   },
   {
+    "id": "L4_grammar_ox_1",
+    "type": "grammar_ox",
+    "lesson": 4,
+    "sentence": "Reusable cups not only have a visually appealing appearance but also (A) the taste of the coffee.",
+    "question": "(A)에 들어갈 말로 어법상 옳은 것은?",
+    "choices": ["preserve", "preserves"],
+    "answer": 0,
+    "explanation": "not only A but also B → A·B 동등 구조. have(원형)와 시제·수 일치 → preserve."
+  },
+  {
+    "id": "L4_grammar_5_0",
+    "type": "grammar_5",
+    "lesson": 4,
+    "passage": "An example of a circular economy in action (1) occurs when a chain of coffee shops collaborates with an organization (2) to collect spent coffee grounds. These grounds are processed to remove impurities and (3) drying out. The resulting SCGs (4) are sold to fertilizer companies, where they are transformed into organic fertilizers. This fertilizer is later sold back to the chain (5) which provides it to local farmers.",
+    "question": "다음 글의 밑줄 친 부분 중 어법상 틀린 것은?",
+    "choices": ["(1) occurs", "(2) to collect", "(3) drying", "(4) are sold", "(5) which"],
+    "answer": 2,
+    "explanation": "(3) drying → dried. processed와 병렬 (and dried). 수동 분사."
+  },
+  {
     "id": "L4_summary_0",
     "type": "summary",
     "lesson": 4,
@@ -180,5 +565,43 @@
     "choices": ["선형", "공유", "순환", "전통"],
     "answer": 2,
     "explanation": "본문 핵심 키워드는 'circular economy'(순환 경제)."
+  },
+  {
+    "id": "L4_summary_1",
+    "type": "summary",
+    "lesson": 4,
+    "summary": "커피 찌꺼기는 ___, 옷·신발 원단, 재사용 컵 등 다양한 제품으로 재활용되어 환경 보호에 기여한다.",
+    "question": "빈칸에 들어갈 말로 가장 적절한 것은?",
+    "choices": ["설탕", "커피 로그(연료)", "잉크", "비누"],
+    "answer": 1,
+    "explanation": "본문 명시: coffee logs(연료), 의류 원단, 컵 — 세 가지 대표 활용."
+  },
+  {
+    "id": "L4_topic_0",
+    "type": "topic",
+    "lesson": 4,
+    "question": "윗글의 주제로 가장 적절한 것은?",
+    "choices": [
+      "the health benefits of drinking coffee",
+      "recycling coffee waste through circular economy",
+      "the global expansion of coffee chains",
+      "differences between coffee bean varieties"
+    ],
+    "answer": 1,
+    "explanation": "본문 = 커피 부산물을 순환 경제로 재활용하는 사례."
+  },
+  {
+    "id": "L4_title_0",
+    "type": "title",
+    "lesson": 4,
+    "question": "윗글의 제목으로 가장 적절한 것은?",
+    "choices": [
+      "The Hidden Cost of Your Morning Brew",
+      "From Trash to Treasure: Coffee's Second Life",
+      "Why Methane Is Worse Than CO2",
+      "The Rise of Korean Coffee Culture"
+    ],
+    "answer": 1,
+    "explanation": "쓰레기였던 커피 찌꺼기가 비료·연료·옷감으로 재탄생 → '쓰레기에서 보물로'."
   }
 ]

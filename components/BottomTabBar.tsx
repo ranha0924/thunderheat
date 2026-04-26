@@ -15,11 +15,13 @@ const TABS = [
     ),
   },
   {
-    href: "/boss",
-    label: "약점",
+    href: "/vocab",
+    label: "단어",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-        <polygon points="12 2 15 9 22 9 17 14 19 22 12 17 5 22 7 14 2 9 9 9 12 2" />
+        <path d="M4 4h11a4 4 0 0 1 4 4v12a4 4 0 0 0-4-4H4z" />
+        <line x1="8" y1="9" x2="14" y2="9" />
+        <line x1="8" y1="13" x2="12" y2="13" />
       </svg>
     ),
   },
