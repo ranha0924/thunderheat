@@ -1,0 +1,150 @@
+import { Question } from "./types";
+
+export const MOCK_QUESTIONS: Question[] = [
+  {
+    id: "L1_vocab_en_ko_0",
+    type: "vocab_en_ko",
+    lesson: 1,
+    word: "fascinating",
+    context:
+      "It's fascinating how, in situations like this, we want to help someone in need.",
+    question: "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    choices: ["흥미로운", "지루한", "혼란스러운", "당황스러운"],
+    answer: 0,
+    explanation:
+      "fascinating은 '매우 흥미로운, 매혹적인'. interesting의 강조형이다.",
+  },
+  {
+    id: "L1_vocab_en_ko_1",
+    type: "vocab_en_ko",
+    lesson: 1,
+    word: "evolutionary",
+    context: "I'm Dr. Edward Wilson, an evolutionary biologist.",
+    question: "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    choices: ["혁명적인", "진화의", "환경의", "교육적인"],
+    answer: 1,
+    explanation: "evolution(진화) + ary → '진화의, 진화에 관한'.",
+  },
+  {
+    id: "L1_vocab_ko_en_0",
+    type: "vocab_ko_en",
+    lesson: 1,
+    meaning: "동반자, 친구, 반려",
+    question: "다음 뜻에 해당하는 영어 단어는?",
+    choices: ["company", "companion", "comparison", "compound"],
+    answer: 1,
+    explanation:
+      "companion = 동반자/반려. com(함께) + pan(빵) → 같이 빵 먹는 사이.",
+  },
+  {
+    id: "L1_vocab_ko_en_1",
+    type: "vocab_ko_en",
+    lesson: 1,
+    meaning: "조상, 선조",
+    question: "다음 뜻에 해당하는 영어 단어는?",
+    choices: ["ancient", "ancestor", "answer", "anchor"],
+    answer: 1,
+    explanation: "ancestor = 조상. ancient(고대의)와 헷갈리지 말 것.",
+  },
+  {
+    id: "L1_blank_0",
+    type: "blank",
+    lesson: 1,
+    sentence:
+      "He placed two cups on the ground with food ___ under only one of them.",
+    question: "빈칸에 들어갈 말로 가장 적절한 것은?",
+    choices: ["hide", "hiding", "hidden", "to hide"],
+    answer: 2,
+    explanation:
+      "with + 명사 + p.p. = '~된 채로'. 음식이 숨겨지는 수동 관계이므로 hidden.",
+  },
+  {
+    id: "L1_grammar_ox_0",
+    type: "grammar_ox",
+    lesson: 1,
+    sentence:
+      "On my way, I had trouble (A) this room. (A) = locating / locate",
+    question: "(A)에 들어갈 말로 어법상 옳은 것은?",
+    choices: ["locating", "locate"],
+    answer: 0,
+    explanation:
+      "have trouble (in) V-ing = '~하는 데 어려움을 겪다'. 동명사 형태가 옳다.",
+  },
+  {
+    id: "L1_grammar_5_0",
+    type: "grammar_5",
+    lesson: 1,
+    passage:
+      "He conducted an experiment to (1) seeing how dogs would respond to human gestures compared to wolves, (2) who share the same common ancestor. He placed two cups on the ground with food (3) hidden under only one of them. When he pointed to the cup with the food, the dogs found (4) it easily. The wolves chose cups (5) at random.",
+    question: "다음 글의 밑줄 친 부분 중 어법상 틀린 것은?",
+    choices: ["(1) seeing", "(2) who", "(3) hidden", "(4) it", "(5) at random"],
+    answer: 0,
+    explanation:
+      "(1) to seeing → to see. 'to + 동사원형'(목적의 부정사). 동명사 형태 X.",
+  },
+  {
+    id: "L1_summary_0",
+    type: "summary",
+    lesson: 1,
+    summary:
+      "Wilson 박사는 인류가 살아남은 비결이 ___이며, 협력과 친절함이 진화적 강점이었다고 주장한다.",
+    question: "빈칸에 들어갈 말로 가장 적절한 것은?",
+    choices: ["힘", "지능", "친절함", "도구"],
+    answer: 2,
+    explanation: "본문 핵심은 'kindness is the key to success'. 친절함이 답.",
+  },
+  {
+    id: "L1_topic_0",
+    type: "topic",
+    lesson: 1,
+    question: "윗글의 주제로 가장 적절한 것은?",
+    choices: [
+      "the role of physical strength in human evolution",
+      "the role of friendliness and cooperation in survival",
+      "differences between dogs and wolves",
+      "Edward Wilson's career as a biologist",
+    ],
+    answer: 1,
+    explanation:
+      "본문은 '친절함·협력이 생존의 열쇠'를 개·보노보·사피엔스 사례로 입증한다.",
+  },
+  {
+    id: "L1_title_0",
+    type: "title",
+    lesson: 1,
+    question: "윗글의 제목으로 가장 적절한 것은?",
+    choices: [
+      "Why the Strongest Survive",
+      "Kindness: The Hidden Power of Survival",
+      "Dr. Wilson's Childhood Memories",
+      "How Wolves Lost the Evolutionary Race",
+    ],
+    answer: 1,
+    explanation:
+      "본문 핵심은 '친절함이 생존의 숨은 힘'. (2)가 함축적으로 본문을 담는다.",
+  },
+  {
+    id: "L4_vocab_en_ko_0",
+    type: "vocab_en_ko",
+    lesson: 4,
+    word: "substantial",
+    context:
+      "The world's widespread love of coffee comes at a substantial environmental cost.",
+    question: "밑줄 친 단어의 뜻으로 가장 적절한 것은?",
+    choices: ["미미한", "상당한", "잠재적인", "지속적인"],
+    answer: 1,
+    explanation: "substantial = 상당한, 실질적인. sub(아래) + stand(서다) 어원.",
+  },
+  {
+    id: "L4_blank_0",
+    type: "blank",
+    lesson: 4,
+    sentence:
+      "A circular economy promotes the reuse of resources for as long as possible, ___ waste and environmental costs.",
+    question: "빈칸에 들어갈 말로 가장 적절한 것은?",
+    choices: ["reduce", "reduced", "reducing", "to reduce"],
+    answer: 2,
+    explanation:
+      "분사구문 (and reduces ...). 주어가 동일하므로 V-ing 형태인 reducing.",
+  },
+];
