@@ -5,22 +5,31 @@ import { Button } from "@/components/Button";
 import { Chip } from "@/components/Chip";
 import { ProgressBar } from "@/components/ProgressBar";
 import { cn } from "@/lib/utils";
-import { SOCIAL_UNITS } from "@/lib/socialNotes";
-import { SOCIAL_QUESTIONS, SocialQuestion } from "@/lib/socialQuestions";
+import { CHAPTERS, SOCIAL_SUBUNITS } from "@/lib/socialNotes";
+import {
+  SOCIAL_QUESTIONS,
+  SocialQuestion,
+  questionsBySubUnit,
+  questionsBySubUnits,
+} from "@/lib/socialQuestions";
 import { getState, setState, updateState } from "@/lib/storage";
 import { recordAnswer } from "@/lib/session";
 
 type Mode = "notes" | "quiz";
 
+const SESSION_SIZE = 15; // 한 라운드 빠르게
+
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
+const allSubUnitIds = SOCIAL_SUBUNITS.map((s) => s.id);
+
 export default function SocialPage() {
-  const [scope, setScope] = useState<number[]>([]);
+  const [scope, setScope] = useState<string[]>([]);
   const [scopeLoaded, setScopeLoaded] = useState(false);
   const [scopeOpen, setScopeOpen] = useState(false);
-  const [unit, setUnit] = useState<number | null>(null);
+  const [unitId, setUnitId] = useState<string | null>(null);
   const [mode, setMode] = useState<Mode>("notes");
 
   // quiz state
@@ -32,35 +41,41 @@ export default function SocialPage() {
 
   useEffect(() => {
     const s = getState();
-    const saved = s.socialUnits ?? [];
+    const saved = (s.socialUnits ?? []).filter((id) =>
+      allSubUnitIds.includes(id),
+    );
     setScope(saved);
     setScopeLoaded(true);
     if (saved.length === 0) {
-      // 처음 진입 → 범위 선택부터
       setScopeOpen(true);
     } else {
-      setUnit(saved[0]);
+      setUnitId(saved[0]);
     }
   }, []);
 
-  const visibleUnits = useMemo(
-    () => SOCIAL_UNITS.filter((u) => scope.includes(u.unit)),
+  const visibleSubUnits = useMemo(
+    () => SOCIAL_SUBUNITS.filter((u) => scope.includes(u.id)),
     [scope],
   );
 
   const note = useMemo(
-    () => SOCIAL_UNITS.find((u) => u.unit === unit) ?? null,
-    [unit],
+    () => SOCIAL_SUBUNITS.find((u) => u.id === unitId) ?? null,
+    [unitId],
   );
 
   const scopedQuestionCount = useMemo(
-    () => SOCIAL_QUESTIONS.filter((q) => scope.includes(q.unit)).length,
+    () => questionsBySubUnits(scope).length,
     [scope],
   );
 
-  const toggleScopeUnit = (u: number) => {
+  const currentUnitQuestionCount = useMemo(
+    () => (unitId ? questionsBySubUnit(unitId).length : 0),
+    [unitId],
+  );
+
+  const toggleScopeUnit = (id: string) => {
     setScope((s) =>
-      s.includes(u) ? s.filter((x) => x !== u) : [...s, u].sort(),
+      s.includes(id) ? s.filter((x) => x !== id) : [...s, id].sort(),
     );
   };
 
@@ -68,16 +83,26 @@ export default function SocialPage() {
     if (scope.length === 0) return;
     updateState((s) => ({ ...s, socialUnits: scope }));
     setScopeOpen(false);
-    if (unit === null || !scope.includes(unit)) setUnit(scope[0]);
+    if (unitId === null || !scope.includes(unitId)) setUnitId(scope[0]);
   };
 
-  const startQuiz = (target: "unit" | "scope") => {
-    const pool =
-      target === "unit" && unit !== null
-        ? SOCIAL_QUESTIONS.filter((q) => q.unit === unit)
-        : SOCIAL_QUESTIONS.filter((q) => scope.includes(q.unit));
+  const startQuiz = (
+    target: "unitFast" | "unitAll" | "scopeFast" | "scopeAll",
+  ) => {
+    let pool: SocialQuestion[] = [];
+    if (target === "unitFast" || target === "unitAll") {
+      if (!unitId) return;
+      pool = questionsBySubUnit(unitId);
+    } else {
+      pool = questionsBySubUnits(scope);
+    }
     if (pool.length === 0) return;
-    setQueue(shuffle(pool));
+    const shuffled = shuffle(pool);
+    const final =
+      target === "unitFast" || target === "scopeFast"
+        ? shuffled.slice(0, SESSION_SIZE)
+        : shuffled;
+    setQueue(final);
     setIdx(0);
     setSelected(null);
     setRevealed(false);
@@ -127,10 +152,10 @@ export default function SocialPage() {
         </h1>
         <div className="flex gap-1.5 mt-3 flex-wrap items-center">
           <Chip variant="terracotta">
-            범위 {scope.length}/{SOCIAL_UNITS.length}단원
+            범위 {scope.length}/{SOCIAL_SUBUNITS.length}
           </Chip>
           <Chip variant="butter">{scopedQuestionCount}문항</Chip>
-          <Chip variant="lavender">고1 · 미래엔</Chip>
+          <Chip variant="lavender">{SOCIAL_QUESTIONS.length}문항 풀</Chip>
           <button
             onClick={() => setScopeOpen((v) => !v)}
             className="ml-auto text-[11px] font-bold text-ink-500 underline-offset-2 underline"
@@ -147,56 +172,62 @@ export default function SocialPage() {
             시험 범위 선택
           </h2>
           <p className="text-[12px] text-ink-500 leading-relaxed mb-4">
-            학교 시험 범위에 해당하는 단원만 골라줘. 선택한 단원만 정리·문제에
+            학교 시험 범위에 해당하는 소단원만 골라줘. 선택한 부분만 정리·문제에
             나타나.
           </p>
-          <div className="space-y-2">
-            {SOCIAL_UNITS.map((u) => {
-              const active = scope.includes(u.unit);
-              const qCount = SOCIAL_QUESTIONS.filter(
-                (q) => q.unit === u.unit,
-              ).length;
-              return (
-                <button
-                  key={u.unit}
-                  onClick={() => toggleScopeUnit(u.unit)}
-                  className={cn(
-                    "w-full text-left p-3 rounded-card border transition flex items-start gap-3",
-                    active
-                      ? "bg-ink-900 text-paper border-ink-900"
-                      : "bg-white border-ink-200 text-ink-800",
-                  )}
-                >
-                  <span
-                    className={cn(
-                      "mt-0.5 w-5 h-5 shrink-0 rounded-md border-[1.5px] flex items-center justify-center text-[12px] font-extrabold",
-                      active
-                        ? "bg-butter border-butter text-ink-900"
-                        : "bg-white border-ink-300 text-transparent",
-                    )}
-                  >
-                    ✓
-                  </span>
-                  <span className="flex-1">
-                    <span className="block text-sm font-bold">
-                      단원 {u.unit}. {u.unitTitle}
-                    </span>
-                    <span
+          {CHAPTERS.map((ch) => (
+            <div key={ch.key} className="mb-4">
+              <h3 className="text-[11px] font-bold text-ink-500 uppercase tracking-widest mb-2">
+                {ch.key}. {ch.title}
+              </h3>
+              <div className="space-y-1.5">
+                {ch.subUnits.map((id) => {
+                  const u = SOCIAL_SUBUNITS.find((x) => x.id === id)!;
+                  const active = scope.includes(id);
+                  const qCount = questionsBySubUnit(id).length;
+                  return (
+                    <button
+                      key={id}
+                      onClick={() => toggleScopeUnit(id)}
                       className={cn(
-                        "block text-[11px] mt-0.5",
-                        active ? "text-paper/70" : "text-ink-500",
+                        "w-full text-left p-3 rounded-card border transition flex items-start gap-3",
+                        active
+                          ? "bg-ink-900 text-paper border-ink-900"
+                          : "bg-white border-ink-200 text-ink-800",
                       )}
                     >
-                      {qCount}문항 · {u.oneLine}
-                    </span>
-                  </span>
-                </button>
-              );
-            })}
-          </div>
+                      <span
+                        className={cn(
+                          "mt-0.5 w-5 h-5 shrink-0 rounded-md border-[1.5px] flex items-center justify-center text-[12px] font-extrabold",
+                          active
+                            ? "bg-butter border-butter text-ink-900"
+                            : "bg-white border-ink-300 text-transparent",
+                        )}
+                      >
+                        ✓
+                      </span>
+                      <span className="flex-1">
+                        <span className="block text-sm font-bold">
+                          {id} {u.unitTitle}
+                        </span>
+                        <span
+                          className={cn(
+                            "block text-[11px] mt-0.5",
+                            active ? "text-paper/70" : "text-ink-500",
+                          )}
+                        >
+                          {qCount}문항 · {u.oneLine}
+                        </span>
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
           <div className="flex gap-2 mt-4">
             <button
-              onClick={() => setScope([1, 2, 3, 4, 5])}
+              onClick={() => setScope([...allSubUnitIds])}
               className="text-[11px] font-bold text-ink-500 underline underline-offset-2"
             >
               전체 선택
@@ -218,7 +249,7 @@ export default function SocialPage() {
         </section>
       )}
 
-      {/* 범위 미설정 시 가이드 */}
+      {/* 범위 미설정 시 */}
       {scopeLoaded && scope.length === 0 && !scopeOpen && (
         <section className="bg-terracotta-soft/40 border border-terracotta/20 rounded-card p-5 text-center">
           <p className="text-sm text-ink-800 font-semibold mb-3">
@@ -228,25 +259,22 @@ export default function SocialPage() {
         </section>
       )}
 
-      {/* 단원 탭 (범위 내에서만) */}
-      {visibleUnits.length > 0 && (
+      {/* 소단원 탭 */}
+      {visibleSubUnits.length > 0 && mode === "notes" && (
         <section className="mb-5 -mx-5 px-5 overflow-x-auto">
           <div className="flex gap-2 min-w-max pb-1">
-            {visibleUnits.map((u) => (
+            {visibleSubUnits.map((u) => (
               <button
-                key={u.unit}
-                onClick={() => {
-                  setUnit(u.unit);
-                  setMode("notes");
-                }}
+                key={u.id}
+                onClick={() => setUnitId(u.id)}
                 className={cn(
                   "px-3.5 py-2 rounded-chip text-xs font-bold border whitespace-nowrap transition",
-                  unit === u.unit
+                  unitId === u.id
                     ? "bg-ink-900 text-paper border-ink-900"
                     : "bg-white text-ink-700 border-ink-200",
                 )}
               >
-                {u.unit}. {u.unitTitle.split(" ")[0]}
+                {u.id} {u.unitTitle.split(" ")[0]}
               </button>
             ))}
           </div>
@@ -257,10 +285,10 @@ export default function SocialPage() {
         <section className="space-y-5">
           <div className="bg-white rounded-card p-5 border border-ink-100 shadow-paper-soft">
             <div className="text-[11px] text-ink-500 uppercase tracking-wider font-semibold mb-1">
-              단원 {note.unit}
+              {note.chapter}
             </div>
             <h2 className="text-lg font-bold text-ink-900 tracking-tight mb-2">
-              {note.unitTitle}
+              {note.id} {note.unitTitle}
             </h2>
             <div className="bg-butter-soft rounded-chip px-3 py-2 text-sm font-semibold text-ink-900">
               💡 {note.oneLine}
@@ -338,15 +366,23 @@ export default function SocialPage() {
           </div>
 
           <div className="grid grid-cols-2 gap-2 pt-2">
-            <Button onClick={() => startQuiz("unit")} fullWidth>
-              이 단원만 풀기
+            <Button onClick={() => startQuiz("unitFast")} fullWidth>
+              빠르게 ({Math.min(SESSION_SIZE, currentUnitQuestionCount)}문제)
             </Button>
             <Button
-              onClick={() => startQuiz("scope")}
+              onClick={() => startQuiz("unitAll")}
               variant="secondary"
               fullWidth
             >
-              범위 전체 풀기 ({scopedQuestionCount})
+              이 단원 전체 ({currentUnitQuestionCount})
+            </Button>
+            <Button
+              onClick={() => startQuiz("scopeFast")}
+              variant="outline"
+              fullWidth
+              className="col-span-2"
+            >
+              범위 전체에서 셔플 {SESSION_SIZE}문제 →
             </Button>
           </div>
         </section>
@@ -359,7 +395,7 @@ export default function SocialPage() {
               {idx + 1} / {queue.length} 문항
             </span>
             <span className="text-[11px] text-ink-500 font-semibold">
-              {score.correct} / {score.total}
+              정답 {score.correct} / {score.total}
             </span>
           </div>
           <ProgressBar
@@ -371,9 +407,14 @@ export default function SocialPage() {
 
           {current && (
             <div className="bg-white rounded-card p-5 border border-ink-100 shadow-paper-soft">
-              <Chip variant="lavender">
-                단원 {current.unit} · {current.unitTitle}
-              </Chip>
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <Chip variant="lavender">
+                  {current.subUnit} {current.subUnitTitle}
+                </Chip>
+                <Chip variant="default">
+                  {current.round}회 · {current.n}번
+                </Chip>
+              </div>
               <p className="mt-3 text-[15px] text-ink-900 font-semibold leading-relaxed whitespace-pre-line">
                 {current.prompt}
               </p>
@@ -413,7 +454,7 @@ export default function SocialPage() {
                 })}
               </div>
 
-              {revealed && (
+              {revealed && current.explanation && (
                 <div className="mt-4 bg-butter-soft rounded-chip p-3 border border-butter">
                   <div className="text-[11px] uppercase tracking-widest text-ink-500 font-bold mb-1">
                     해설

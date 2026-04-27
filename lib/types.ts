@@ -115,8 +115,8 @@ export interface AppState {
   bedtime: string; // "HH:MM"
   tabBarOnboarded: boolean;
 
-  // 통합사회 시험 범위 (선택된 단원 번호; 비어있으면 ‘아직 미설정’)
-  socialUnits: number[];
+  // 통합사회 시험 범위 (선택된 소단원 ID — "1-1", "2-3" 등; 비어있으면 ‘아직 미설정’)
+  socialUnits: string[];
 }
 
 export const INITIAL_STATE: AppState = {
