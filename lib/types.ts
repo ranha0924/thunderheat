@@ -114,6 +114,9 @@ export interface AppState {
   sleepCutoffSnoozedAt?: number;
   bedtime: string; // "HH:MM"
   tabBarOnboarded: boolean;
+
+  // 통합사회 시험 범위 (선택된 단원 번호; 비어있으면 ‘아직 미설정’)
+  socialUnits: number[];
 }
 
 export const INITIAL_STATE: AppState = {
@@ -133,4 +136,5 @@ export const INITIAL_STATE: AppState = {
   pretests: [],
   bedtime: "23:50",
   tabBarOnboarded: false,
+  socialUnits: [],
 };

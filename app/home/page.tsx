@@ -61,7 +61,11 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-2">
           <SubjectCard subject="수학" mode="compact" disabled />
           <SubjectCard subject="국어" mode="compact" disabled />
-          <SubjectCard subject="사회" mode="compact" disabled />
+          <SubjectCard
+            subject="통합사회1"
+            mode="compact"
+            onClick={() => (window.location.href = "/social")}
+          />
           <SubjectCard subject="과학" mode="compact" disabled />
         </div>
       </section>
