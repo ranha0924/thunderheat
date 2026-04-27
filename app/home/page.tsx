@@ -48,34 +48,29 @@ export default function Home() {
         <ProgressBar value={todayMissionPct} variant="sage" />
       </section>
 
-      <section className="mb-5 space-y-3">
-        <SubjectCard
-          subject="공통영어1 — 미래엔 (김성연)"
-          mode="expanded"
-          dDay={1}
-          progress={45}
-          level={level}
-          weakCount={state.weakness.length}
-          onClick={() => (window.location.href = "/upload")}
-        />
+      <section className="mb-5">
         <div className="grid grid-cols-2 gap-2">
-          <SubjectCard subject="수학" mode="compact" disabled />
-          <SubjectCard subject="국어" mode="compact" disabled />
+          <SubjectCard
+            subject="공통영어1"
+            mode="compact"
+            onClick={() => (window.location.href = "/upload")}
+          />
           <SubjectCard
             subject="통합사회1"
             mode="compact"
             onClick={() => (window.location.href = "/social")}
           />
+          <SubjectCard subject="수학" mode="compact" disabled />
+          <SubjectCard subject="국어" mode="compact" disabled />
           <SubjectCard subject="과학" mode="compact" disabled />
+          <Link
+            href="/upload"
+            className="bg-white rounded-card p-4 flex items-center justify-center text-center border border-dashed border-ink-200 text-sm font-bold text-ink-500"
+          >
+            + 과목 추가
+          </Link>
         </div>
       </section>
-
-      <Link
-        href="/upload"
-        className="block w-full text-center py-3 rounded-card border-[1.5px] border-dashed border-ink-200 text-sm font-bold text-ink-500"
-      >
-        + 과목 추가
-      </Link>
 
       <div className="mt-5 grid grid-cols-3 gap-2">
         <Link
