@@ -5,12 +5,20 @@ import { Button } from "@/components/Button";
 import { cn } from "@/lib/utils";
 import { getState, updateState } from "@/lib/storage";
 
-const GRADES = ["중1", "중2", "중3", "고1", "고2", "고3", "N수"];
+const GRADES = [
+  { id: "중1", enabled: false },
+  { id: "중2", enabled: false },
+  { id: "중3", enabled: false },
+  { id: "고1", enabled: true },
+  { id: "고2", enabled: false },
+  { id: "고3", enabled: false },
+  { id: "N수", enabled: false },
+];
 const SUBJECTS = [
   { id: "english", label: "영어", enabled: true },
   { id: "math", label: "수학", enabled: false },
   { id: "korean", label: "국어", enabled: false },
-  { id: "society", label: "사회", enabled: false },
+  { id: "society", label: "사회", enabled: true },
   { id: "science", label: "과학", enabled: false },
   { id: "history", label: "한국사", enabled: false },
 ];
@@ -65,16 +73,18 @@ export default function Onboarding() {
         <div className="flex flex-wrap gap-2">
           {GRADES.map((g) => (
             <button
-              key={g}
-              onClick={() => setGrade(g)}
+              key={g.id}
+              onClick={() => g.enabled && setGrade(g.id)}
+              disabled={!g.enabled}
               className={cn(
                 "px-3.5 py-2 rounded-chip text-xs font-bold border transition",
-                grade === g
+                grade === g.id && g.enabled
                   ? "bg-ink-900 text-paper border-ink-900"
                   : "bg-white text-ink-700 border-ink-200",
+                !g.enabled && "opacity-50 cursor-not-allowed",
               )}
             >
-              {g}
+              {g.id}
             </button>
           ))}
         </div>

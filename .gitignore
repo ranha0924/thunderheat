@@ -36,3 +36,7 @@ yarn-error.log*
 next-env.d.ts
 shots/
 shots_v02/
+
+# 저작권 자료 (교과서·족보 PDF) — 커밋 금지
+/docs/
+/input/
