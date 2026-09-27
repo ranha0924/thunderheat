@@ -1,15 +1,8 @@
-export interface SocialSubUnit {
-  id: string; // "1-1" 형식
-  chapter: string; // "1.통합적 관점" 등 대단원
-  unitTitle: string; // 소단원 제목
-  oneLine: string;
-  koreanSummary: string;
-  keyTerms: { term: string; meaning: string }[];
-  commonQuestions: string[];
-  trapWarnings: string[];
-}
+import { SubjectChapter, SubUnitNote } from "./subjectPack";
 
-export const CHAPTERS: { key: string; title: string; subUnits: string[] }[] = [
+export type SocialSubUnit = SubUnitNote;
+
+export const CHAPTERS: SubjectChapter[] = [
   {
     key: "1",
     title: "통합적 관점",

@@ -1,0 +1,938 @@
+[
+  {
+    "id": "E11_s1_q01",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 1,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "An animal sanctuary is a special place where rescued, injured, or _______ animals can live in a safe and caring environment.",
+    "choices": [
+      "adopted",
+      "admired",
+      "abused",
+      "attracted",
+      "awarded"
+    ],
+    "answer": 2,
+    "explanation": "abused(학대받은). 보호소는 구조된(rescued)·다친(injured)·학대받은(abused) 동물이 안전하게 사는 곳이다."
+  },
+  {
+    "id": "E11_s1_q02",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 2,
+    "prompt": "밑줄 친 sanctuary의 뜻으로 가장 알맞은 것은?",
+    "passage": "Our club organized a volunteer trip to an animal sanctuary called Free Animals.",
+    "choices": [
+      "보호소, 안식처",
+      "서식지",
+      "동물원",
+      "실험실",
+      "농장"
+    ],
+    "answer": 0,
+    "explanation": "sanctuary는 ‘보호 구역, 안식처’. 동물원(zoo)과 달리 구조·보호가 목적인 곳이다."
+  },
+  {
+    "id": "E11_s1_q03",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 3,
+    "prompt": "다음 글의 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+    "passage": "At the sanctuary, the volunteers helped with animal care by (A) _______ habitats and preparing food. They chopped bananas into small pieces for the elderly elephants, which had (B) _______ teeth.",
+    "choices": [
+      "(A) painting – (B) weak",
+      "(A) building – (B) sharp",
+      "(A) selling – (B) strong",
+      "(A) cleaning – (B) sharp",
+      "(A) cleaning – (B) weak"
+    ],
+    "answer": 4,
+    "explanation": "봉사 내용은 서식지 청소(cleaning habitats)와 먹이 준비. 나이 든 코끼리는 이가 약해서(weak teeth) 바나나를 잘게 썰어 주었다."
+  },
+  {
+    "id": "E11_s1_q04",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 4,
+    "prompt": "다음 글의 주제로 가장 적절한 것은?",
+    "passage": "As the leader of the Care for Animals club, I planned a trip so that our members could volunteer at an animal sanctuary. We cleaned habitats, prepared food, and learned how much care rescued animals need.",
+    "choices": [
+      "the history of animal sanctuaries",
+      "how to adopt a pet from a shelter",
+      "a club's volunteer experience at an animal sanctuary",
+      "the dangers of wild animals",
+      "the cost of running a zoo"
+    ],
+    "answer": 2,
+    "explanation": "동아리 리더가 기획한 동물 보호소 자원봉사 경험이 글의 중심 내용이다."
+  },
+  {
+    "id": "E11_s1_q05",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 5,
+    "prompt": "밑줄 친 habitat의 뜻으로 알맞은 것은?",
+    "passage": "Every morning we cleaned the habitats where the rescued animals lived.",
+    "choices": [
+      "서식지",
+      "습관",
+      "거주자",
+      "사육사",
+      "울타리"
+    ],
+    "answer": 0,
+    "explanation": "habitat 서식지. habit(습관)과 철자가 비슷하므로 주의."
+  },
+  {
+    "id": "E11_s1_q06",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 6,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "The elderly elephants have weak teeth, so the volunteers _______ the bananas into small pieces before feeding them.",
+    "choices": [
+      "freeze",
+      "chop",
+      "hide",
+      "throw",
+      "count"
+    ],
+    "answer": 1,
+    "explanation": "chop 잘게 썰다. 이가 약한 나이 든 코끼리가 먹기 쉽도록 바나나를 잘게 썰었다."
+  },
+  {
+    "id": "E11_s1_q07",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 7,
+    "prompt": "다음 글의 내용과 일치하지 않는 것은?",
+    "passage": "I am the leader of our school's animal protection club. This spring, I organized a volunteer trip to Free Animals, a sanctuary for rescued, injured, or abused animals. There, our members cleaned habitats and prepared food. For the elderly elephants with weak teeth, we chopped bananas into small pieces.",
+    "choices": [
+      "바나나를 잘게 썬 것은 어린 코끼리를 위해서였다.",
+      "봉사 여행은 글쓴이가 기획하였다.",
+      "Free Animals는 구조되거나 다친 동물을 위한 보호소이다.",
+      "동아리원들은 서식지를 청소하고 먹이를 준비했다.",
+      "글쓴이는 동물 보호 동아리의 리더이다."
+    ],
+    "answer": 0,
+    "explanation": "바나나를 잘게 썬 것은 이가 약한 나이 든(elderly) 코끼리를 위해서이다."
+  },
+  {
+    "id": "E11_s1_q08",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 1,
+    "n": 8,
+    "prompt": "밑줄 친 단어와 의미가 가장 가까운 것은?",
+    "passage": "The staff at the sanctuary take care of more than fifty animals every day.",
+    "choices": [
+      "look up",
+      "look for",
+      "look after",
+      "give up",
+      "put off"
+    ],
+    "answer": 2,
+    "explanation": "take care of = look after 돌보다. look for 찾다, look up 찾아보다, give up 포기하다, put off 미루다."
+  },
+  {
+    "id": "E11_s2_q09",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 2,
+    "n": 1,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "Even a few hours of volunteering can _______ in the lives of animals in need.",
+    "choices": [
+      "make a mistake",
+      "make a difference",
+      "take a break",
+      "keep in touch",
+      "run out of"
+    ],
+    "answer": 1,
+    "explanation": "make a difference 변화를 만들다, 도움이 되다. in need 도움이 필요한."
+  },
+  {
+    "id": "E11_s2_q10",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 2,
+    "n": 2,
+    "prompt": "다음 중 단어와 뜻이 잘못 짝지어진 것은?",
+    "passage": "",
+    "choices": [
+      "rescue – 구조하다",
+      "injured – 다친",
+      "elderly – 나이 든",
+      "organize – 조직하다, 기획하다",
+      "caring – 부주의한"
+    ],
+    "answer": 4,
+    "explanation": "caring은 ‘보살피는, 배려하는’이다. ‘부주의한’은 careless."
+  },
+  {
+    "id": "E11_s2_q11",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 2,
+    "n": 3,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "Many animals arrive at the sanctuary after being _______ from illegal traders.",
+    "choices": [
+      "rescued",
+      "rejected",
+      "reduced",
+      "refused",
+      "recycled"
+    ],
+    "answer": 0,
+    "explanation": "rescued 구조된. 불법 거래상으로부터 구조되어 보호소에 온다는 문맥."
+  },
+  {
+    "id": "E11_s2_q12",
+    "subUnit": "1-1",
+    "subUnitTitle": "L1 내용·어휘",
+    "round": 2,
+    "n": 4,
+    "prompt": "다음 글에서 전체 흐름과 관계 없는 문장은?",
+    "passage": "① Volunteering at the sanctuary was harder than we had expected. ② We had to wake up early to clean the habitats. ③ Preparing food for dozens of animals took hours. ④ The sanctuary's gift shop sells T-shirts in three colors. ⑤ Still, seeing the animals eat well made every minute worth it.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "④는 기념품 가게에 대한 내용으로, 봉사의 힘듦과 보람이라는 글의 흐름과 관계없다."
+  },
+  {
+    "id": "E12_s1_q01",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 1,
+    "prompt": "다음 중 5형식(S + V + O + O.C.) 문장은?",
+    "passage": "",
+    "choices": [
+      "She gave me a book about elephants.",
+      "The news made everyone happy.",
+      "The volunteers work very hard.",
+      "They became good friends.",
+      "I like the baby goats."
+    ],
+    "answer": 1,
+    "explanation": "made(V) everyone(O) happy(O.C.) — ‘everyone is happy’의 관계가 성립하므로 5형식. ①은 4형식, ③ 1형식, ④ 2형식, ⑤ 3형식."
+  },
+  {
+    "id": "E12_s1_q02",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 2,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "My teacher had us _______ the habitats before lunch.",
+    "choices": [
+      "to clean",
+      "clean",
+      "cleaning",
+      "cleaned",
+      "be cleaned"
+    ],
+    "answer": 1,
+    "explanation": "사역동사 have + 목적어 + 동사원형. 목적어(us)가 청소를 하는 능동 관계이므로 clean."
+  },
+  {
+    "id": "E12_s1_q03",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 3,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "By the time we arrived at the sanctuary, the staff _______ the food for the animals.",
+    "choices": [
+      "prepares",
+      "prepared",
+      "has prepared",
+      "had prepared",
+      "were preparing"
+    ],
+    "answer": 3,
+    "explanation": "우리가 도착한 과거 시점보다 먼저 완료된 일이므로 과거완료 had prepared."
+  },
+  {
+    "id": "E12_s1_q04",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 4,
+    "prompt": "다음 중 어법상 틀린 것은?",
+    "passage": "",
+    "choices": [
+      "The rescued animals live in a safe environment.",
+      "The leader asked us to bring gloves.",
+      "He let the volunteers feed the goats.",
+      "We kept the habitat clean all day.",
+      "She saw the elephant to eat bananas."
+    ],
+    "answer": 4,
+    "explanation": "지각동사 see + 목적어 + 동사원형/-ing. to eat → eat 또는 eating."
+  },
+  {
+    "id": "E12_s1_q05",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 5,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "When I got to the shelter, the dog I wanted _______ already _______.",
+    "choices": [
+      "was – adopted",
+      "has – been adopted",
+      "had – been adopted",
+      "is – adopted",
+      "had – adopted"
+    ],
+    "answer": 2,
+    "explanation": "내가 도착한 과거 시점 이전에 입양이 완료되었고, 개는 입양 ‘되는’ 대상이므로 과거완료 수동 had already been adopted."
+  },
+  {
+    "id": "E12_s1_q06",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 6,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "We consider volunteering _______ for our community.",
+    "choices": [
+      "importantly",
+      "important",
+      "importance",
+      "to important",
+      "be important"
+    ],
+    "answer": 1,
+    "explanation": "consider + 목적어 + 형용사 보어. 목적어 volunteering을 설명하는 형용사 important."
+  },
+  {
+    "id": "E12_s1_q07",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 7,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "The staff allowed us _______ the baby goats.",
+    "choices": [
+      "to feed",
+      "feed",
+      "feeding",
+      "fed",
+      "to feeding"
+    ],
+    "answer": 0,
+    "explanation": "allow + 목적어 + to부정사. want/ask/tell/allow/expect는 목적격 보어로 to부정사를 취한다."
+  },
+  {
+    "id": "E12_s1_q08",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 1,
+    "n": 8,
+    "prompt": "밑줄 친 had never seen의 용법으로 알맞은 것은?",
+    "passage": "I had never seen an elephant up close before I visited the sanctuary.",
+    "choices": [
+      "완료",
+      "진행",
+      "결과",
+      "계속",
+      "경험"
+    ],
+    "answer": 4,
+    "explanation": "방문한 과거 시점까지 ‘한 번도 본 적이 없었다’는 경험을 나타낸다. never, before가 단서."
+  },
+  {
+    "id": "E12_s2_q09",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 2,
+    "n": 1,
+    "prompt": "다음 문장을 5형식으로 바르게 바꾼 것은?",
+    "passage": "The volunteers helped. The elephants ate the bananas.",
+    "choices": [
+      "The volunteers helped eating the bananas the elephants.",
+      "The volunteers helped that the elephants ate the bananas.",
+      "The volunteers helped the elephants ate the bananas.",
+      "The volunteers helped the elephants eat the bananas.",
+      "The volunteers helped to the elephants eat the bananas."
+    ],
+    "answer": 3,
+    "explanation": "help + 목적어 + (to) 동사원형. ‘helped the elephants (to) eat’이 5형식이다."
+  },
+  {
+    "id": "E12_s2_q10",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 2,
+    "n": 2,
+    "prompt": "다음 중 어법상 틀린 것은?",
+    "passage": "",
+    "choices": [
+      "I had my bike repaired yesterday.",
+      "She made her brother wash the dishes.",
+      "He got his friend help him.",
+      "They found the cage empty.",
+      "We watched the birds flying over the lake."
+    ],
+    "answer": 2,
+    "explanation": "get은 사역의 의미라도 목적격 보어로 to부정사를 취한다: got his friend to help him."
+  },
+  {
+    "id": "E12_s2_q11",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 2,
+    "n": 3,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "She _______ at the sanctuary for three years when she finally decided to adopt a dog.",
+    "choices": [
+      "works",
+      "is working",
+      "will work",
+      "has worked",
+      "had been working"
+    ],
+    "answer": 4,
+    "explanation": "결정한 과거 시점까지 3년간 계속 일해 오고 있었으므로 과거완료 진행 had been working."
+  },
+  {
+    "id": "E12_s2_q12",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 2,
+    "n": 4,
+    "prompt": "다음 두 문장의 뜻이 같도록 할 때 빈칸에 알맞은 것은?",
+    "passage": "The sanctuary was so peaceful that it made the visitors _______.  (= The visitors felt relaxed.)",
+    "choices": [
+      "relaxed",
+      "relax",
+      "relaxing",
+      "to relax",
+      "relaxation"
+    ],
+    "answer": 0,
+    "explanation": "make + 목적어 + 형용사 보어. 방문객이 ‘편안함을 느끼는’ 상태이므로 과거분사형 형용사 relaxed. relaxing은 ‘편안하게 해 주는’."
+  },
+  {
+    "id": "E12_s2_q13",
+    "subUnit": "1-2",
+    "subUnitTitle": "L1 문법",
+    "round": 2,
+    "n": 5,
+    "prompt": "다음 밑줄 친 부분 중 어법상 틀린 것은?",
+    "passage": "Before we ① left the sanctuary, the manager ② told us ③ to write about what we ④ had learned, so I ⑤ have written this report last night.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 4,
+    "explanation": "last night는 명확한 과거 시점이므로 현재완료와 함께 쓸 수 없다. have written → wrote."
+  },
+  {
+    "id": "E31_s1_q01",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 1,
+    "prompt": "다음 글의 제목으로 가장 적절한 것은?",
+    "passage": "For years, the museum's security guards stood quietly beside the paintings, watching visitors come and go. Then the museum invited them to curate an exhibition of their own. The guards chose works from the collection and wrote about why each one mattered to them.",
+    "choices": [
+      "How to Become a Museum Guard",
+      "Guards Step into the Spotlight as Curators",
+      "The Rising Cost of Art Collections",
+      "Why Visitors Ignore Security Rules",
+      "The History of the Museum Building"
+    ],
+    "answer": 1,
+    "explanation": "작품을 지키던 경비원들이 직접 전시를 기획하는 큐레이터가 되어 주목받는다는 내용이다."
+  },
+  {
+    "id": "E31_s1_q02",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 2,
+    "prompt": "제목 ‘From Shadows to Spotlights’의 의미로 가장 적절한 것은?",
+    "passage": "",
+    "choices": [
+      "미술관의 조명 설계가 개선되었다.",
+      "그림자를 이용한 새로운 미술 기법이 유행한다.",
+      "눈에 띄지 않던 사람들이 주목받는 자리로 옮겨 갔다.",
+      "전시장이 어두운 곳에서 밝은 곳으로 이사했다.",
+      "예술가들이 무명에서 유명해지는 과정이 험난하다."
+    ],
+    "answer": 2,
+    "explanation": "shadows(배경, 눈에 띄지 않는 위치)에서 spotlights(주목)로 — 경비원들이 큐레이터로 주목받게 된 상황의 비유."
+  },
+  {
+    "id": "E31_s1_q03",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 3,
+    "prompt": "밑줄 친 curator의 뜻으로 알맞은 것은?",
+    "passage": "A professional curator advised the guards, but the final choices were their own.",
+    "choices": [
+      "경비원",
+      "관람객",
+      "조각가",
+      "큐레이터, 전시 기획자",
+      "후원자"
+    ],
+    "answer": 3,
+    "explanation": "curator 전시 기획자. creator(창작자)와 혼동하지 말 것."
+  },
+  {
+    "id": "E31_s1_q04",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 4,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "For years the guards worked in the shadows; now, as curators of their own show, they are finally in the _______.",
+    "choices": [
+      "spotlight",
+      "shadow",
+      "basement",
+      "distance",
+      "silence"
+    ],
+    "answer": 0,
+    "explanation": "in the spotlight 주목을 받는. shadows(그늘)와 대비되는 표현."
+  },
+  {
+    "id": "E31_s1_q05",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 5,
+    "prompt": "다음 글의 내용과 일치하는 것은?",
+    "passage": "The guards spend more time with the artworks than anyone else—up to eight hours a day. Over the years, many of them developed a deep love for particular pieces. Their exhibition let visitors see the collection through the eyes of people who had truly lived with the art.",
+    "choices": [
+      "경비원들은 하루에 한 시간만 작품 곁에 머문다.",
+      "경비원들은 작품에 별다른 애정을 갖지 않는다.",
+      "전시는 관람객이 경비원의 시선으로 소장품을 보게 했다.",
+      "전시는 전문 큐레이터의 시선만을 반영했다.",
+      "경비원들은 작품을 직접 그렸다."
+    ],
+    "answer": 2,
+    "explanation": "경비원들은 누구보다 오래 작품과 함께하며 애정을 키웠고, 전시는 관람객이 그들의 눈으로 소장품을 보게 했다."
+  },
+  {
+    "id": "E31_s1_q06",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 6,
+    "prompt": "밑줄 친 appreciate의 뜻으로 가장 알맞은 것은?",
+    "passage": "You don't need a degree in art history to appreciate a painting.",
+    "choices": [
+      "무시하다",
+      "감상하다, 진가를 알아보다",
+      "구매하다",
+      "복원하다",
+      "보관하다"
+    ],
+    "answer": 1,
+    "explanation": "appreciate 감상하다·진가를 알아보다. 문맥에 따라 ‘고마워하다’의 뜻도 있다."
+  },
+  {
+    "id": "E31_s1_q07",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 7,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "Visitors often _______ small details in a painting, but the guards, who see it every day, notice them all.",
+    "choices": [
+      "overtake",
+      "overcome",
+      "overhear",
+      "overlook",
+      "overflow"
+    ],
+    "answer": 3,
+    "explanation": "overlook 간과하다, 못 보고 지나치다. 관람객은 놓치지만 매일 보는 경비원은 알아차린다는 대비."
+  },
+  {
+    "id": "E31_s1_q08",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 1,
+    "n": 8,
+    "prompt": "다음 글의 요지로 가장 적절한 것은?",
+    "passage": "The exhibition proved that a love of art does not depend on titles or degrees. What matters is the time and attention you give to a work. In that sense, the guards were the true art lovers.",
+    "choices": [
+      "예술 감상에는 전문 교육이 반드시 필요하다.",
+      "관람객 수가 전시의 성공을 결정한다.",
+      "미술관 경비 업무는 위험하다.",
+      "유명 화가의 작품만 전시할 가치가 있다.",
+      "예술을 사랑하는 마음은 직함이 아니라 작품에 쏟은 시간과 관심에서 나온다."
+    ],
+    "answer": 4,
+    "explanation": "학위·직함이 아니라 작품과 함께한 시간과 관심이 진정한 예술 사랑을 만든다는 것이 요지."
+  },
+  {
+    "id": "E31_s2_q09",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 2,
+    "n": 1,
+    "prompt": "다음 중 단어와 뜻이 잘못 짝지어진 것은?",
+    "passage": "",
+    "choices": [
+      "exhibition – 전시(회)",
+      "collection – 소장품",
+      "perspective – 관점",
+      "masterpiece – 실패작",
+      "recognize – 알아보다, 인정하다"
+    ],
+    "answer": 3,
+    "explanation": "masterpiece는 ‘걸작’이다."
+  },
+  {
+    "id": "E31_s2_q10",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 2,
+    "n": 2,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "The guards' show gave the museum a fresh _______ on works that had hung on its walls for decades.",
+    "choices": [
+      "permission",
+      "perspective",
+      "performance",
+      "population",
+      "possession"
+    ],
+    "answer": 1,
+    "explanation": "a fresh perspective 새로운 관점. 수십 년 걸려 있던 작품을 새롭게 보게 했다는 문맥."
+  },
+  {
+    "id": "E31_s2_q11",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 2,
+    "n": 3,
+    "prompt": "글의 흐름으로 보아 주어진 문장이 들어가기에 가장 적절한 곳은?",
+    "passage": "[주어진 문장] Each guard also wrote a short label explaining the personal story behind the choice.\n\n( ① ) The museum asked its guards to select works for a special exhibition. ( ② ) They spent weeks looking through the collection. ( ③ ) Some picked famous paintings; others chose quiet pieces most visitors passed by. ( ④ ) When the show opened, these labels became the most talked-about part of the exhibition. ( ⑤ )",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "‘these labels’가 가리키는 라벨(label)이 먼저 언급되어야 하므로, 작품 선정(③) 뒤·전시 개막(④) 앞에 들어가야 한다."
+  },
+  {
+    "id": "E31_s2_q12",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 내용·어휘",
+    "round": 2,
+    "n": 4,
+    "prompt": "밑줄 친 표현의 뜻으로 알맞은 것은?",
+    "passage": "Most museum work happens behind the scenes, far from the visitors' eyes.",
+    "choices": [
+      "우연히",
+      "관객 앞에서",
+      "야외에서",
+      "정시에",
+      "무대 뒤에서, 남들 모르게"
+    ],
+    "answer": 4,
+    "explanation": "behind the scenes 무대 뒤에서, 눈에 띄지 않게. 경비원들의 일이 ‘그늘(shadows)’에 있었다는 흐름과 연결."
+  },
+  {
+    "id": "E32_s1_q01",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 1,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "Not until the exhibition opened _______ how much the guards knew about art.",
+    "choices": [
+      "did people realize",
+      "people realized",
+      "people did realize",
+      "realized people",
+      "do people realize"
+    ],
+    "answer": 0,
+    "explanation": "Not until이 문두에 오면 주절은 ‘조동사 + 주어 + 동사원형’으로 도치. 과거이므로 did people realize."
+  },
+  {
+    "id": "E32_s1_q02",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 2,
+    "prompt": "다음 문장을 도치문으로 바르게 바꾼 것은?",
+    "passage": "It was not until 2022 that the museum let its guards curate a show.",
+    "choices": [
+      "Not until 2022 the museum let its guards curate a show.",
+      "Not until did 2022 the museum let its guards curate a show.",
+      "Not until 2022 did the museum let its guards curate a show.",
+      "Not until 2022 let the museum its guards curate a show.",
+      "Not until 2022 the museum did let its guards curate a show."
+    ],
+    "answer": 2,
+    "explanation": "It was not until A that S + V = Not until A + did + S + 동사원형."
+  },
+  {
+    "id": "E32_s1_q03",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 3,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "_______ in front of the paintings every day, the guards came to love them.",
+    "choices": [
+      "Stand",
+      "Having stand",
+      "Stood",
+      "To standing",
+      "Standing"
+    ],
+    "answer": 4,
+    "explanation": "주어(the guards)가 ‘서 있는’ 능동 관계이므로 현재분사 Standing. (= As they stood …)"
+  },
+  {
+    "id": "E32_s1_q04",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 4,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "_______ by a professional curator, the guards chose 25 artworks from the collection.",
+    "choices": [
+      "Advising",
+      "Advised",
+      "To advise",
+      "Advise",
+      "Being advise"
+    ],
+    "answer": 1,
+    "explanation": "주어(the guards)가 조언을 ‘받는’ 수동 관계이므로 과거분사 Advised. (Being advised에서 Being 생략)"
+  },
+  {
+    "id": "E32_s1_q05",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 5,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "This is the gallery _______ the guards displayed their favorite works.",
+    "choices": [
+      "where",
+      "which",
+      "that",
+      "what",
+      "whom"
+    ],
+    "answer": 0,
+    "explanation": "뒤 절(the guards displayed their favorite works)이 완전하므로 관계부사 where (= in which)."
+  },
+  {
+    "id": "E32_s1_q06",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 6,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "The painting _______ she chose was created by a local artist.",
+    "choices": [
+      "where",
+      "when",
+      "which",
+      "what",
+      "why"
+    ],
+    "answer": 2,
+    "explanation": "chose의 목적어가 빠진 불완전한 절이므로 관계대명사 which(that). 선행사 the painting이 있으므로 what ❌."
+  },
+  {
+    "id": "E32_s1_q07",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 7,
+    "prompt": "다음 분사구문을 부사절로 바꿀 때 빈칸에 가장 알맞은 접속사는?",
+    "passage": "Having no formal training, the guards still curated a moving exhibition.\n= _______ they had no formal training, the guards still curated a moving exhibition.",
+    "choices": [
+      "Because",
+      "After",
+      "If",
+      "Although",
+      "Unless"
+    ],
+    "answer": 3,
+    "explanation": "‘정식 교육을 받지 않았음에도 불구하고’ — still이 단서. 양보의 접속사 Although."
+  },
+  {
+    "id": "E32_s1_q08",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 1,
+    "n": 8,
+    "prompt": "다음 중 어법상 틀린 것은?",
+    "passage": "",
+    "choices": [
+      "This is the room which the sculpture is displayed.",
+      "The guard, standing quietly, watched the crowd.",
+      "Not until the show ended did the visitors leave.",
+      "Exhausted from the long day, she sat down.",
+      "The artwork that he selected was small but powerful."
+    ],
+    "answer": 0,
+    "explanation": "‘the sculpture is displayed’는 완전한 절이므로 관계부사 where 또는 in which가 필요하다."
+  },
+  {
+    "id": "E32_s2_q09",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 2,
+    "n": 1,
+    "prompt": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 것은?",
+    "passage": "I still remember the day when the exhibition opened.\n= I still remember the day _______ the exhibition opened.",
+    "choices": [
+      "in which",
+      "on which",
+      "for which",
+      "at which",
+      "of which"
+    ],
+    "answer": 1,
+    "explanation": "관계부사 when = 전치사 + which. 날짜(the day)에는 전치사 on을 쓰므로 on which."
+  },
+  {
+    "id": "E32_s2_q10",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 2,
+    "n": 2,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "Not until she looked closely _______ the hidden details in the painting.",
+    "choices": [
+      "she noticed",
+      "noticed she",
+      "does she notice",
+      "she did notice",
+      "did she notice"
+    ],
+    "answer": 4,
+    "explanation": "Not until + 절 뒤의 주절은 도치: did she notice. 시제는 looked에 맞춰 과거."
+  },
+  {
+    "id": "E32_s2_q11",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 2,
+    "n": 3,
+    "prompt": "밑줄 친 Having worked의 의미로 가장 적절한 것은?",
+    "passage": "Having worked at the museum for ten years, he knew every painting by heart.",
+    "choices": [
+      "Although he works at the museum for ten years",
+      "If he works at the museum for ten years",
+      "Because he had worked at the museum for ten years",
+      "Unless he had worked at the museum for ten years",
+      "While he will work at the museum for ten years"
+    ],
+    "answer": 2,
+    "explanation": "Having p.p.는 주절보다 앞선 일을 나타내는 완료 분사구문. ‘10년간 일했기 때문에’ 모든 그림을 알았다."
+  },
+  {
+    "id": "E32_s2_q12",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 2,
+    "n": 4,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "_______ what to say, the guard simply pointed at his favorite painting.",
+    "choices": [
+      "Don't know",
+      "Knowing not",
+      "Not known",
+      "Not knowing",
+      "Not to know"
+    ],
+    "answer": 3,
+    "explanation": "분사구문의 부정은 분사 앞에 Not을 둔다: Not knowing (= As he didn't know)."
+  },
+  {
+    "id": "E32_s2_q13",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 2,
+    "n": 5,
+    "prompt": "다음 문장을 분사구문으로 바르게 바꾼 것은?",
+    "passage": "While he was guarding the gallery, he studied every brushstroke.",
+    "choices": [
+      "Guarded the gallery, he studied every brushstroke.",
+      "He guarding the gallery, he studied every brushstroke.",
+      "To guard the gallery, he studied every brushstroke.",
+      "Guarding the gallery, he studied every brushstroke.",
+      "Being guarded the gallery, he studied every brushstroke."
+    ],
+    "answer": 3,
+    "explanation": "접속사·주어 생략, was guarding → guarding. 능동이므로 현재분사."
+  },
+  {
+    "id": "E32_s2_q14",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 2,
+    "n": 6,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "The reason _______ the guards chose that painting surprised everyone.",
+    "choices": [
+      "which",
+      "what",
+      "whom",
+      "where",
+      "why"
+    ],
+    "answer": 4,
+    "explanation": "선행사 the reason + 완전한 절 → 관계부사 why (= for which)."
+  },
+  {
+    "id": "E32_s2_q15",
+    "subUnit": "3-2",
+    "subUnitTitle": "L3 문법",
+    "round": 2,
+    "n": 7,
+    "prompt": "다음 밑줄 친 부분 중 어법상 틀린 것은?",
+    "passage": "① Not until the lights came on ② did the visitors notice the small painting ③ hanging in the corner, ④ that a guard had chosen ⑤ because it reminded him of home.",
+    "choices": [
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
+    ],
+    "answer": 3,
+    "explanation": "콤마 뒤 계속적 용법에는 that을 쓸 수 없다. that → which."
+  }
+]
