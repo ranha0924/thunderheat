@@ -117,6 +117,9 @@ export interface AppState {
 
   // 통합사회 시험 범위 (선택된 소단원 ID — "1-1", "2-3" 등; 비어있으면 ‘아직 미설정’)
   socialUnits: string[];
+
+  // 과목별 시험 범위 (SubjectPack.key → 선택된 소단원 ID 목록). 통합사회는 socialUnits 도 병행 유지.
+  unitScopes: Record<string, string[]>;
 }
 
 export const INITIAL_STATE: AppState = {
@@ -137,4 +140,5 @@ export const INITIAL_STATE: AppState = {
   bedtime: "23:50",
   tabBarOnboarded: false,
   socialUnits: [],
+  unitScopes: {},
 };

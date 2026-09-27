@@ -16,8 +16,8 @@ const GRADES = [
 ];
 const SUBJECTS = [
   { id: "english", label: "영어", enabled: true },
-  { id: "math", label: "수학", enabled: false },
-  { id: "korean", label: "국어", enabled: false },
+  { id: "math", label: "수학", enabled: true },
+  { id: "korean", label: "국어", enabled: true },
   { id: "society", label: "사회", enabled: true },
   { id: "science", label: "과학", enabled: false },
   { id: "history", label: "한국사", enabled: false },

@@ -1,26 +1,18 @@
 import data from "./socialQuestions.json";
+import {
+  SubUnitQuestion,
+  questionsBySubUnit as byUnit,
+  questionsBySubUnits as byUnits,
+} from "./subjectPack";
 
-export interface SocialQuestion {
-  id: string;
-  subUnit: string; // "1-1" 등
-  subUnitTitle: string;
-  round: number;
-  n: number;
-  prompt: string;
-  passage: string;
-  choices: string[];
-  answer: number;
-  explanation: string;
-}
+export type SocialQuestion = SubUnitQuestion;
 
 export const SOCIAL_QUESTIONS: SocialQuestion[] = data as SocialQuestion[];
 
 export function questionsBySubUnits(subUnits: string[]): SocialQuestion[] {
-  if (subUnits.length === 0) return [];
-  const set = new Set(subUnits);
-  return SOCIAL_QUESTIONS.filter((q) => set.has(q.subUnit));
+  return byUnits(SOCIAL_QUESTIONS, subUnits);
 }
 
 export function questionsBySubUnit(subUnit: string): SocialQuestion[] {
-  return SOCIAL_QUESTIONS.filter((q) => q.subUnit === subUnit);
+  return byUnit(SOCIAL_QUESTIONS, subUnit);
 }

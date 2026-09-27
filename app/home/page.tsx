@@ -60,8 +60,21 @@ export default function Home() {
             mode="compact"
             onClick={() => (window.location.href = "/social")}
           />
-          <SubjectCard subject="수학" mode="compact" disabled />
-          <SubjectCard subject="국어" mode="compact" disabled />
+          <SubjectCard
+            subject="공통국어2"
+            mode="compact"
+            onClick={() => (window.location.href = "/korean")}
+          />
+          <SubjectCard
+            subject="공통수학2"
+            mode="compact"
+            onClick={() => (window.location.href = "/math")}
+          />
+          <SubjectCard
+            subject="공통영어2"
+            mode="compact"
+            onClick={() => (window.location.href = "/english")}
+          />
           <SubjectCard subject="과학" mode="compact" disabled />
           <Link
             href="/upload"
