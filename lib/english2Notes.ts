@@ -3,6 +3,9 @@ import { SubjectChapter, SubUnitNote } from "./subjectPack";
 /**
  * 공통영어2 (미래엔 · 김성연 외, 2022 개정) — 2학기 1차 정기시험 범위
  * Lesson 1 We Share, We Care · Lesson 3 The True Art Lovers (+ 추가 독해자료)
+ *
+ * ※ Lesson 3 본문(From Shadows to Spotlights)은 ‘여러 화가들의 이야기’라는 틀만 확인된 상태.
+ *    화가 이름·세부 내용은 교과서 본문으로 채워야 한다 (3-1 정리 참고).
  */
 export const ENGLISH2_CHAPTERS: SubjectChapter[] = [
   {
@@ -96,41 +99,40 @@ export const ENGLISH2_SUBUNITS: SubUnitNote[] = [
   {
     id: "3-1",
     chapter: "Lesson 3. The True Art Lovers",
-    unitTitle: "본문 — From Shadows to Spotlights (내용·어휘)",
+    unitTitle: "본문 — From Shadows to Spotlights (여러 화가 이야기 · 어휘)",
     oneLine:
-      "매일 작품 곁을 지키던 사람들이 ‘진정한 예술 애호가’로 무대에 서는 이야기 — 그늘에서 스포트라이트로.",
+      "그늘(shadows)에 있던 화가들이 어떻게 주목(spotlights)받게 되었나 — 화가별 ‘그늘 → 전환점 → 주목’ 흐름으로 정리.",
     koreanSummary:
-      "**본문 흐름 (Reading: From Shadows to Spotlights, 본문 1·2·3 + Deep Learning 3)**\n· 제목의 의미: **shadows(그늘, 배경)** → **spotlights(주목, 조명)**. 눈에 띄지 않던 사람들이 주목받는 자리로 옮겨 간다는 뜻.\n· 소재(※ 교과서로 최종 확인 필요): 미술관의 **security guards(경비원)**가 직접 **curator(전시 기획자)**가 되어 자신들이 고른 작품으로 전시를 연 실제 사례 — 미국 볼티모어 미술관(Baltimore Museum of Art)의 「Guarding the Art」 전시(2022)가 대표적. 경비원 17명이 소장품(collection)에서 작품을 골라 전시를 기획.\n· 핵심 논지: 경비원들은 누구보다 오래 작품을 바라보고(**Not until** ~ 구문으로 ‘~하고 나서야 비로소 깨달았다’), 작품에 대해 관람객 이상의 안목과 애정을 갖게 됨 → **진정한 예술 애호가(the true art lovers)**. 예술을 감상(appreciate)하는 데 전문가 자격이 필요한 것은 아니며, 관점(perspective)의 다양성이 전시를 더 풍성하게 만든다.\n· 구성: 본문1 (경비원의 일상·배경) → 본문2 (전시 기획 과정, 작품 선정 이유) → 본문3 (전시의 반응과 의미: 예술을 사랑하는 마음은 누구에게나).\n\n**내용 이해 포인트**\n· 경비원의 역할 변화: 작품을 **지키는(guard)** 사람 → 작품을 **고르고 설명하는(curate)** 사람.\n· 전시가 특별한 이유: 전문 큐레이터가 아닌 사람들의 **개인적 경험·시선**이 담김.\n· 메시지: 예술을 사랑하는 마음(love of art)은 학위나 직함이 아니라 **작품과 함께한 시간과 관심**에서 나온다.\n\n**핵심 어휘 (단원 주제 관련 필수 어휘 — 단어장으로 최종 확인)**\nsecurity guard/officer 경비원, curator 큐레이터·전시 기획자, curate 전시를 기획하다, exhibition 전시(회), collection 소장품, gallery 전시실·화랑, artwork 작품, masterpiece 걸작, display 전시하다, spotlight 주목·조명, shadow 그늘·배경, perspective 관점, appreciate 감상하다·진가를 알다, admire 감탄하다, overlook 간과하다, recognize 알아보다·인정하다, select 고르다, unique 독특한, inspire 영감을 주다, behind the scenes 무대 뒤에서, in the spotlight 주목받는, come to life 생생해지다, take a closer look 자세히 들여다보다.",
+      "**확인된 것** — 단원명 **The True Art Lovers(진정한 예술 애호가들)**, 본문 제목 **From Shadows to Spotlights**, 본문 1·2·3 + Deep Learning 3 구성, 소재는 **여러 화가들의 이야기**. 어법 포인트는 Not until 도치·분사구문·관계대명사 vs 관계부사(3-2).\n**⚠ 아직 채워야 할 것** — 본문에 나오는 **화가 이름과 각 화가의 세부 사연**은 교과서 본문으로 확인 후 채울 것(아래 ‘화가별 정리표’ 칸을 직접 메우기). 이 앱의 3-1 문항은 본문 세부 내용이 아니라 **어휘·제목 의미·글의 구조**만 다룬다.\n\n**제목 읽기** — shadows(그늘·무명·배경) → spotlights(조명·주목·명성). ‘생전에는 인정받지 못했거나 눈에 띄지 않던 화가가 어떤 계기로 세상의 주목을 받게 되었는가’가 글의 축. 단원명 ‘The True Art Lovers’는 그 화가들(예술 자체를 사랑한 사람들) 또는 **그들의 가치를 알아보고 세상에 알린 사람들** 양쪽으로 해석될 수 있으니, 본문에서 **누가 ‘진정한 예술 애호가’로 지칭되는지** 반드시 확인.\n\n**화가별 정리표 (본문 읽으며 채우기)** — 본문 1 / 본문 2 / 본문 3 각각\n① 화가 이름·시대·나라  ② **그늘 시절**: 왜 인정받지 못했나 (가난, 시대를 앞선 화풍, 여성·소수자, 작품 미공개…)  ③ **전환점(turning point)**: 누가·언제·어떻게 알아봤나 (가족·친구·비평가·수집가·전시)  ④ **주목 이후**: 현재의 평가·대표작  ⑤ 교훈: 재능·꾸준함·알아봐 주는 사람의 역할\n→ 시험은 ‘화가 ↔ 사연 매칭’, ‘글의 순서(그늘→전환점→주목)’, ‘빈칸(전환점 문장)’, ‘요지(진정한 예술 사랑이란)’로 나온다.\n\n**핵심 어휘 (예술·인정 주제 — 교과서 단어장과 대조해 추가/삭제할 것)**\npainter 화가 · painting 그림 · artwork 작품 · masterpiece 걸작 · exhibition 전시(회) · gallery 화랑·전시실 · collection 소장품 · display 전시하다 · portrait 초상화 · landscape 풍경화 · style 화풍 · talent 재능 · genius 천재(성) · fame 명성 · recognition 인정 · recognize 알아보다·인정하다 · appreciate 감상하다·진가를 알다 · admire 감탄하다 · overlook 간과하다 · ignore 무시하다 · reject 거절하다 · struggle 고군분투(하다) · poverty 가난 · unknown 무명의 · overnight 하룻밤 사이에 · eventually 결국 · inspire 영감을 주다 · influence 영향(을 주다) · devote 바치다 · passion 열정 · discover 발견하다 · preserve 보존하다 · pass away 세상을 떠나다 · after one's death 사후에 · in the spotlight 주목받는 · in the shadow(s) 그늘에 가려진 · come to light 알려지다 · gain/win recognition 인정을 받다 · make a name for oneself 이름을 알리다 · ahead of one's time 시대를 앞선",
     keyTerms: [
-      { term: "from shadows to spotlights", meaning: "그늘(배경)에서 주목받는 자리로 — 제목의 의미" },
-      { term: "security guard", meaning: "경비원 (= security officer)" },
-      { term: "curator / curate", meaning: "전시 기획자 / 전시를 기획하다" },
-      { term: "exhibition", meaning: "전시(회) — hold an exhibition" },
-      { term: "collection", meaning: "소장품 (the museum's collection)" },
-      { term: "artwork", meaning: "미술 작품 (= piece of art)" },
+      { term: "from shadows to spotlights", meaning: "그늘(무명·배경)에서 조명(주목·명성)으로 — 제목의 비유" },
+      { term: "true art lover", meaning: "진정한 예술 애호가 — 본문에서 누구를 가리키는지 확인" },
+      { term: "recognition / recognize", meaning: "인정 / 알아보다·인정하다 (gain recognition)" },
       { term: "appreciate", meaning: "감상하다, 진가를 알아보다 (+ 고마워하다)" },
-      { term: "perspective", meaning: "관점, 시각 (a fresh perspective)" },
       { term: "overlook", meaning: "간과하다, 못 보고 지나치다" },
-      { term: "recognize", meaning: "알아보다, 인정하다" },
-      { term: "behind the scenes", meaning: "무대 뒤에서, 남들 모르게" },
-      { term: "in the spotlight", meaning: "주목을 받는" },
+      { term: "masterpiece", meaning: "걸작 (↔ failure ❌, ↔ ordinary work)" },
+      { term: "exhibition", meaning: "전시(회) — hold/open an exhibition" },
+      { term: "ahead of one's time", meaning: "시대를 앞선 (당대에 이해받지 못한 이유)" },
+      { term: "pass away / after one's death", meaning: "세상을 떠나다 / 사후에" },
+      { term: "come to light", meaning: "(숨겨졌던 것이) 알려지다, 드러나다" },
+      { term: "devote A to B", meaning: "A를 B에 바치다 (devote one's life to painting)" },
+      { term: "inspire", meaning: "영감을 주다 (inspiration 영감)" },
     ],
     commonQuestions: [
-      "글의 제목·주제 — ‘경비원이 큐레이터가 되다’, ‘예술을 사랑하는 마음은 누구에게나’",
-      "제목 ‘From Shadows to Spotlights’의 의미 추론",
-      "내용 일치 — 누가 전시를 기획했는가, 작품 선정 기준, 전시의 의의",
-      "빈칸 추론 — true art lovers / perspective / appreciate",
-      "글의 순서 배열 (본문 1→2→3 흐름), 주어진 문장 넣기",
-      "어휘 적절성 — overlook ↔ notice, familiar ↔ unfamiliar 반의어 치환",
-      "서술형: 경비원들이 진정한 예술 애호가라고 할 수 있는 이유 쓰기",
+      "제목 ‘From Shadows to Spotlights’의 의미 / 글의 제목·주제 고르기",
+      "화가 ↔ 사연(그늘 시절·전환점·현재 평가) 매칭, 내용 일치·불일치",
+      "글의 순서 배열 (무명 → 전환점 → 주목), 주어진 문장 넣기",
+      "빈칸 추론 — recognition / appreciate / overlooked / ahead of his time",
+      "어휘 적절성 — overlook ↔ notice, unknown ↔ famous, reject ↔ accept 반의어 치환",
+      "서술형: 화가가 주목받게 된 계기 한 문장으로 쓰기, ‘진정한 예술 애호가’의 의미 쓰기",
     ],
     trapWarnings: [
-      "전시를 기획한 주체는 **경비원들**(guards) — 전문 큐레이터 ❌ (큐레이터는 자문 역할)",
-      "‘shadows’는 실제 그림자가 아니라 **눈에 띄지 않는 위치**의 비유",
-      "curator(기획자) ↔ creator(창작자) 철자 함정",
+      "‘shadows’는 실제 그림자가 아니라 **눈에 띄지 않는 위치·무명**의 비유",
+      "‘true art lovers’가 화가 자신인지, 화가를 알아본 사람인지 — **본문 기준으로** 확정",
+      "화가별 사연을 서로 바꿔 놓은 선택지(누가 언제 알아봤는지) — 정리표로 구분",
       "appreciate = ‘감상하다’와 ‘고마워하다’ 두 뜻 — 문맥으로 판단",
-      "본문 소재의 세부 사실(미술관 이름·인원)은 교과서 본문으로 최종 확인",
-      "Deep Learning 3 포함 여부는 학교 시험 범위 공지로 확인",
+      "painter(화가) ↔ painting(그림), recognize(알아보다) ↔ realize(깨닫다) 혼동",
+      "이 앱의 정리는 화가 이름이 빠져 있음 — **교과서 본문·학교 학습지로 채운 뒤** 문제 풀 것",
     ],
   },
   {
@@ -140,12 +142,12 @@ export const ENGLISH2_SUBUNITS: SubUnitNote[] = [
     oneLine:
       "Not until이 문두면 주절은 의문문 어순 / 분사구문은 능동 -ing·수동 p.p. / 뒤 절이 완전하면 관계부사.",
     koreanSummary:
-      "**① Not until 도치** — ‘~하고 나서야 비로소 …하다’\n· 기본: She didn't realize its value **until** she looked closely.\n· 강조구문: **It was not until** she looked closely **that** she realized its value.\n· 도치: **Not until** she looked closely **did she realize** its value. → Not until + (명사/절) 뒤의 **주절은 조동사/be동사 + 주어 + 동사** (의문문 어순).\n· 시제 일치: 주절이 과거면 **did + 동사원형**, 현재면 do/does, 완료면 have/has + S + p.p.\n· 같은 계열: Never / Little / Hardly / Only + 부사구가 문두에 오면 도치.\n\n**② 분사구문** — 부사절(접속사 + S + V)을 분사로 줄인 것.\n· 만들기: ① 접속사 생략 ② 주어가 주절과 같으면 생략 ③ 동사 → **-ing**\n  When they stood in front of the paintings, … → **Standing** in front of the paintings, the guards came to love them.\n· **수동**이면 (Being) + **p.p.**: (Being) **Advised** by a curator, the guards chose 25 works.\n· **완료**(주절보다 앞선 일): **Having worked** there for years, he knew every painting.\n· 부정: **Not** + -ing (Not knowing what to say, …)\n· 의미(접속사 복원): 시간(when/while), 이유(because/as), 조건(if), 양보(though), 동시동작(as/while) — 문맥으로 판단.\n· 접속사를 남긴 분사구문: **While standing** there, … / 의미상 주어가 다르면 주어를 남김(독립분사구문).\n\n**③ 관계대명사 vs 관계부사**\n· **관계대명사** who/which/that: 뒤 절에 **주어나 목적어가 빠진 불완전한 절**. The painting **which** she chose was small. (chose의 목적어 없음)\n· **관계부사** where/when/why/how: 뒤 절이 **완전한 절**. This is the gallery **where** the guards displayed their works. (displayed their works — 완전)\n· 관계부사 = **전치사 + 관계대명사**: where = in/at which, when = on/at which, why = for which.\n· **what** = the thing(s) which (선행사 포함) — 앞에 선행사가 있으면 what ❌.\n· that은 관계부사 대신 쓸 수 없고(전치사 뒤 ❌), 콤마 뒤(계속적 용법) ❌.",
+      "**① Not until 도치** — ‘~하고 나서야 비로소 …하다’ (무명 화가가 사후에야 인정받는 이야기에 딱 맞는 구문)\n· 기본: People didn't recognize his talent **until** after his death.\n· 강조구문: **It was not until** after his death **that** people recognized his talent.\n· 도치: **Not until** after his death **did people recognize** his talent. → Not until + (명사구/절) 뒤의 **주절은 조동사/be동사 + 주어 + 동사** (의문문 어순).\n· 시제 일치: 주절이 과거면 **did + 동사원형**, 현재면 do/does, 완료면 have/has + S + p.p.\n· 같은 계열: Never / Little / Hardly / Only + 부사구가 문두에 오면 도치.\n\n**② 분사구문** — 부사절(접속사 + S + V)을 분사로 줄인 것.\n· 만들기: ① 접속사 생략 ② 주어가 주절과 같으면 생략 ③ 동사 → **-ing**\n  While she lived in poverty, she kept painting. → **Living** in poverty, she kept painting.\n· **수동**이면 (Being) + **p.p.**: (Being) **Rejected** by the galleries, he sold his paintings on the street.\n· **완료**(주절보다 앞선 일): **Having painted** for decades without success, she finally held her first exhibition.\n· 부정: **Not** + -ing (Not knowing his work would become famous, …)\n· 의미(접속사 복원): 시간(when/while), 이유(because/as), 조건(if), 양보(though), 동시동작(as/while) — 문맥으로 판단.\n· 접속사를 남긴 분사구문: **While painting** at night, … / 의미상 주어가 다르면 주어를 남김(독립분사구문).\n\n**③ 관계대명사 vs 관계부사**\n· **관계대명사** who/which/that: 뒤 절에 **주어나 목적어가 빠진 불완전한 절**. The painting **which** she kept in the attic is now a masterpiece. (kept의 목적어 없음)\n· **관계부사** where/when/why/how: 뒤 절이 **완전한 절**. This is the town **where** the painter spent his last years. (spent his last years — 완전)\n· 관계부사 = **전치사 + 관계대명사**: where = in/at which, when = on/at which, why = for which.\n· **what** = the thing(s) which (선행사 포함) — 앞에 선행사가 있으면 what ❌.\n· that은 관계부사 대신 쓸 수 없고(전치사 뒤 ❌), 콤마 뒤(계속적 용법) ❌.",
     keyTerms: [
       { term: "Not until A + V + S", meaning: "A하고 나서야 비로소 S가 V하다 (주절 도치)" },
       { term: "It was not until A that B", meaning: "Not until 강조구문 — 도치 없음" },
-      { term: "분사구문 -ing", meaning: "능동·주절과 같은 때 (Standing there, …)" },
-      { term: "분사구문 p.p.", meaning: "수동 (Being 생략) — Advised by …, …" },
+      { term: "분사구문 -ing", meaning: "능동·주절과 같은 때 (Living in poverty, …)" },
+      { term: "분사구문 p.p.", meaning: "수동 (Being 생략) — Rejected by …, …" },
       { term: "Having p.p.", meaning: "완료 분사구문 — 주절보다 앞선 일" },
       { term: "관계대명사 which/that", meaning: "뒤 절 불완전 (주어·목적어 결여)" },
       { term: "관계부사 where/when", meaning: "뒤 절 완전 = 전치사 + which" },
@@ -160,7 +162,7 @@ export const ENGLISH2_SUBUNITS: SubUnitNote[] = [
       "어법상 틀린 것 5지선다 (세 문법 통합)",
     ],
     trapWarnings: [
-      "Not until 문두 → 주절 **도치**, until 절 자체는 도치 ❌ (Not until she looked ✓ / Not until did she look ✗)",
+      "Not until 문두 → 주절 **도치**, until 절 자체는 도치 ❌ (Not until he died ✓ / Not until did he die ✗)",
       "It was not until ~ that … 에서는 **도치하지 않는다**",
       "분사구문의 의미상 주어 = 주절의 주어 — 다르면 p.p./-ing 판단이 달라짐 (수동이면 p.p.)",
       "Being/Having been은 생략 가능 → p.p.로 시작하는 분사구문",

@@ -8,13 +8,13 @@
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
     "passage": "An animal sanctuary is a special place where rescued, injured, or _______ animals can live in a safe and caring environment.",
     "choices": [
+      "abused",
       "adopted",
       "admired",
-      "abused",
       "attracted",
       "awarded"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "abused(학대받은). 보호소는 구조된(rescued)·다친(injured)·학대받은(abused) 동물이 안전하게 사는 곳이다."
   },
   {
@@ -26,13 +26,13 @@
     "prompt": "밑줄 친 sanctuary의 뜻으로 가장 알맞은 것은?",
     "passage": "Our club organized a volunteer trip to an animal sanctuary called Free Animals.",
     "choices": [
-      "보호소, 안식처",
       "서식지",
+      "보호소, 안식처",
       "동물원",
       "실험실",
       "농장"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "sanctuary는 ‘보호 구역, 안식처’. 동물원(zoo)과 달리 구조·보호가 목적인 곳이다."
   },
   {
@@ -44,13 +44,13 @@
     "prompt": "다음 글의 (A), (B)에 들어갈 말로 가장 적절한 것은?",
     "passage": "At the sanctuary, the volunteers helped with animal care by (A) _______ habitats and preparing food. They chopped bananas into small pieces for the elderly elephants, which had (B) _______ teeth.",
     "choices": [
-      "(A) painting – (B) weak",
-      "(A) building – (B) sharp",
       "(A) selling – (B) strong",
+      "(A) building – (B) sharp",
+      "(A) cleaning – (B) weak",
       "(A) cleaning – (B) sharp",
-      "(A) cleaning – (B) weak"
+      "(A) painting – (B) weak"
     ],
-    "answer": 4,
+    "answer": 2,
     "explanation": "봉사 내용은 서식지 청소(cleaning habitats)와 먹이 준비. 나이 든 코끼리는 이가 약해서(weak teeth) 바나나를 잘게 썰어 주었다."
   },
   {
@@ -62,13 +62,13 @@
     "prompt": "다음 글의 주제로 가장 적절한 것은?",
     "passage": "As the leader of the Care for Animals club, I planned a trip so that our members could volunteer at an animal sanctuary. We cleaned habitats, prepared food, and learned how much care rescued animals need.",
     "choices": [
-      "the history of animal sanctuaries",
-      "how to adopt a pet from a shelter",
       "a club's volunteer experience at an animal sanctuary",
+      "how to adopt a pet from a shelter",
+      "the history of animal sanctuaries",
       "the dangers of wild animals",
       "the cost of running a zoo"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "동아리 리더가 기획한 동물 보호소 자원봉사 경험이 글의 중심 내용이다."
   },
   {
@@ -80,13 +80,13 @@
     "prompt": "밑줄 친 habitat의 뜻으로 알맞은 것은?",
     "passage": "Every morning we cleaned the habitats where the rescued animals lived.",
     "choices": [
-      "서식지",
+      "울타리",
       "습관",
       "거주자",
       "사육사",
-      "울타리"
+      "서식지"
     ],
-    "answer": 0,
+    "answer": 4,
     "explanation": "habitat 서식지. habit(습관)과 철자가 비슷하므로 주의."
   },
   {
@@ -98,13 +98,13 @@
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
     "passage": "The elderly elephants have weak teeth, so the volunteers _______ the bananas into small pieces before feeding them.",
     "choices": [
+      "count",
       "freeze",
-      "chop",
       "hide",
       "throw",
-      "count"
+      "chop"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "chop 잘게 썰다. 이가 약한 나이 든 코끼리가 먹기 쉽도록 바나나를 잘게 썰었다."
   },
   {
@@ -173,10 +173,10 @@
       "rescue – 구조하다",
       "injured – 다친",
       "elderly – 나이 든",
-      "organize – 조직하다, 기획하다",
-      "caring – 부주의한"
+      "caring – 부주의한",
+      "organize – 조직하다, 기획하다"
     ],
-    "answer": 4,
+    "answer": 3,
     "explanation": "caring은 ‘보살피는, 배려하는’이다. ‘부주의한’은 careless."
   },
   {
@@ -452,191 +452,137 @@
   {
     "id": "E31_s1_q01",
     "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
+    "subUnitTitle": "L3 어휘·구조",
     "round": 1,
     "n": 1,
-    "prompt": "다음 글의 제목으로 가장 적절한 것은?",
-    "passage": "For years, the museum's security guards stood quietly beside the paintings, watching visitors come and go. Then the museum invited them to curate an exhibition of their own. The guards chose works from the collection and wrote about why each one mattered to them.",
-    "choices": [
-      "How to Become a Museum Guard",
-      "Guards Step into the Spotlight as Curators",
-      "The Rising Cost of Art Collections",
-      "Why Visitors Ignore Security Rules",
-      "The History of the Museum Building"
-    ],
-    "answer": 1,
-    "explanation": "작품을 지키던 경비원들이 직접 전시를 기획하는 큐레이터가 되어 주목받는다는 내용이다."
-  },
-  {
-    "id": "E31_s1_q02",
-    "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
-    "round": 1,
-    "n": 2,
     "prompt": "제목 ‘From Shadows to Spotlights’의 의미로 가장 적절한 것은?",
     "passage": "",
     "choices": [
       "미술관의 조명 설계가 개선되었다.",
+      "눈에 띄지 않던(무명의) 사람들이 주목받는 자리로 옮겨 갔다.",
       "그림자를 이용한 새로운 미술 기법이 유행한다.",
-      "눈에 띄지 않던 사람들이 주목받는 자리로 옮겨 갔다.",
       "전시장이 어두운 곳에서 밝은 곳으로 이사했다.",
-      "예술가들이 무명에서 유명해지는 과정이 험난하다."
+      "유명 화가들이 은퇴 후 조용한 삶을 택했다."
+    ],
+    "answer": 1,
+    "explanation": "shadows(그늘·무명·배경)에서 spotlights(주목·명성)로 — 인정받지 못하던 화가들이 세상의 주목을 받게 되는 흐름의 비유."
+  },
+  {
+    "id": "E31_s1_q02",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 1,
+    "n": 2,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "During her lifetime, her paintings were _______ by critics, and she sold almost nothing. Today they hang in the world's greatest museums.",
+    "choices": [
+      "overheard",
+      "overcome",
+      "overlooked",
+      "overtaken",
+      "overflowed"
     ],
     "answer": 2,
-    "explanation": "shadows(배경, 눈에 띄지 않는 위치)에서 spotlights(주목)로 — 경비원들이 큐레이터로 주목받게 된 상황의 비유."
+    "explanation": "overlook 간과하다, 못 보고 지나치다. 생전에는 비평가들이 무시했지만 지금은 세계적 미술관에 걸려 있다는 대비."
   },
   {
     "id": "E31_s1_q03",
     "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
+    "subUnitTitle": "L3 어휘·구조",
     "round": 1,
     "n": 3,
-    "prompt": "밑줄 친 curator의 뜻으로 알맞은 것은?",
-    "passage": "A professional curator advised the guards, but the final choices were their own.",
+    "prompt": "밑줄 친 appreciate의 뜻으로 가장 알맞은 것은?",
+    "passage": "You don't need a degree in art history to appreciate a great painting.",
     "choices": [
-      "경비원",
-      "관람객",
-      "조각가",
-      "큐레이터, 전시 기획자",
-      "후원자"
+      "복원하다",
+      "무시하다",
+      "구매하다",
+      "감상하다, 진가를 알아보다",
+      "보관하다"
     ],
     "answer": 3,
-    "explanation": "curator 전시 기획자. creator(창작자)와 혼동하지 말 것."
+    "explanation": "appreciate 감상하다·진가를 알아보다. 문맥에 따라 ‘고마워하다’의 뜻도 있다."
   },
   {
     "id": "E31_s1_q04",
     "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
+    "subUnitTitle": "L3 어휘·구조",
     "round": 1,
     "n": 4,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "For years the guards worked in the shadows; now, as curators of their own show, they are finally in the _______.",
+    "passage": "The painter finally gained _______ for his work only after his death.",
     "choices": [
-      "spotlight",
-      "shadow",
-      "basement",
-      "distance",
-      "silence"
+      "recognition",
+      "rejection",
+      "restriction",
+      "reduction",
+      "reaction"
     ],
     "answer": 0,
-    "explanation": "in the spotlight 주목을 받는. shadows(그늘)와 대비되는 표현."
+    "explanation": "gain recognition 인정을 받다. 사후에야 비로소 작품이 인정받았다는 뜻."
   },
   {
     "id": "E31_s1_q05",
     "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
+    "subUnitTitle": "L3 어휘·구조",
     "round": 1,
     "n": 5,
-    "prompt": "다음 글의 내용과 일치하는 것은?",
-    "passage": "The guards spend more time with the artworks than anyone else—up to eight hours a day. Over the years, many of them developed a deep love for particular pieces. Their exhibition let visitors see the collection through the eyes of people who had truly lived with the art.",
-    "choices": [
-      "경비원들은 하루에 한 시간만 작품 곁에 머문다.",
-      "경비원들은 작품에 별다른 애정을 갖지 않는다.",
-      "전시는 관람객이 경비원의 시선으로 소장품을 보게 했다.",
-      "전시는 전문 큐레이터의 시선만을 반영했다.",
-      "경비원들은 작품을 직접 그렸다."
-    ],
-    "answer": 2,
-    "explanation": "경비원들은 누구보다 오래 작품과 함께하며 애정을 키웠고, 전시는 관람객이 그들의 눈으로 소장품을 보게 했다."
-  },
-  {
-    "id": "E31_s1_q06",
-    "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
-    "round": 1,
-    "n": 6,
-    "prompt": "밑줄 친 appreciate의 뜻으로 가장 알맞은 것은?",
-    "passage": "You don't need a degree in art history to appreciate a painting.",
-    "choices": [
-      "무시하다",
-      "감상하다, 진가를 알아보다",
-      "구매하다",
-      "복원하다",
-      "보관하다"
-    ],
-    "answer": 1,
-    "explanation": "appreciate 감상하다·진가를 알아보다. 문맥에 따라 ‘고마워하다’의 뜻도 있다."
-  },
-  {
-    "id": "E31_s1_q07",
-    "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
-    "round": 1,
-    "n": 7,
-    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "Visitors often _______ small details in a painting, but the guards, who see it every day, notice them all.",
-    "choices": [
-      "overtake",
-      "overcome",
-      "overhear",
-      "overlook",
-      "overflow"
-    ],
-    "answer": 3,
-    "explanation": "overlook 간과하다, 못 보고 지나치다. 관람객은 놓치지만 매일 보는 경비원은 알아차린다는 대비."
-  },
-  {
-    "id": "E31_s1_q08",
-    "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
-    "round": 1,
-    "n": 8,
-    "prompt": "다음 글의 요지로 가장 적절한 것은?",
-    "passage": "The exhibition proved that a love of art does not depend on titles or degrees. What matters is the time and attention you give to a work. In that sense, the guards were the true art lovers.",
-    "choices": [
-      "예술 감상에는 전문 교육이 반드시 필요하다.",
-      "관람객 수가 전시의 성공을 결정한다.",
-      "미술관 경비 업무는 위험하다.",
-      "유명 화가의 작품만 전시할 가치가 있다.",
-      "예술을 사랑하는 마음은 직함이 아니라 작품에 쏟은 시간과 관심에서 나온다."
-    ],
-    "answer": 4,
-    "explanation": "학위·직함이 아니라 작품과 함께한 시간과 관심이 진정한 예술 사랑을 만든다는 것이 요지."
-  },
-  {
-    "id": "E31_s2_q09",
-    "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
-    "round": 2,
-    "n": 1,
     "prompt": "다음 중 단어와 뜻이 잘못 짝지어진 것은?",
     "passage": "",
     "choices": [
       "exhibition – 전시(회)",
       "collection – 소장품",
-      "perspective – 관점",
       "masterpiece – 실패작",
-      "recognize – 알아보다, 인정하다"
+      "recognize – 알아보다, 인정하다",
+      "portrait – 초상화"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "masterpiece는 ‘걸작’이다."
   },
   {
-    "id": "E31_s2_q10",
+    "id": "E31_s1_q06",
     "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
-    "round": 2,
-    "n": 2,
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 1,
+    "n": 6,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "The guards' show gave the museum a fresh _______ on works that had hung on its walls for decades.",
+    "passage": "His style was so _______ of his time that most people simply could not understand it.",
     "choices": [
-      "permission",
-      "perspective",
-      "performance",
-      "population",
-      "possession"
+      "afraid",
+      "ahead",
+      "aware",
+      "ashamed",
+      "away"
     ],
     "answer": 1,
-    "explanation": "a fresh perspective 새로운 관점. 수십 년 걸려 있던 작품을 새롭게 보게 했다는 문맥."
+    "explanation": "ahead of one's time 시대를 앞선. 당대 사람들이 이해하지 못한 이유를 설명하는 표현."
   },
   {
-    "id": "E31_s2_q11",
+    "id": "E31_s1_q07",
     "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
-    "round": 2,
-    "n": 3,
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 1,
+    "n": 7,
+    "prompt": "다음 글의 요지로 가장 적절한 것은?",
+    "passage": "Talent alone does not bring an artist into the spotlight. Behind almost every artist who was rediscovered, there was someone who kept the paintings, wrote the letters, or organized the first exhibition. These true art lovers changed the story.",
+    "choices": [
+      "예술가는 재능만 있으면 반드시 성공한다.",
+      "편지를 쓰는 습관이 화가의 실력을 키운다.",
+      "미술관은 유명 화가의 작품만 전시해야 한다.",
+      "무명 화가가 주목받기까지는 그 가치를 알아보고 알린 사람의 역할이 컸다.",
+      "전시회는 비용이 많이 들어 열기 어렵다."
+    ],
+    "answer": 3,
+    "explanation": "재능만으로는 부족하며, 작품을 지키고 알린 ‘진정한 예술 애호가’가 있었다는 것이 요지."
+  },
+  {
+    "id": "E31_s1_q08",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 1,
+    "n": 8,
     "prompt": "글의 흐름으로 보아 주어진 문장이 들어가기에 가장 적절한 곳은?",
-    "passage": "[주어진 문장] Each guard also wrote a short label explaining the personal story behind the choice.\n\n( ① ) The museum asked its guards to select works for a special exhibition. ( ② ) They spent weeks looking through the collection. ( ③ ) Some picked famous paintings; others chose quiet pieces most visitors passed by. ( ④ ) When the show opened, these labels became the most talked-about part of the exhibition. ( ⑤ )",
+    "passage": "[주어진 문장] Everything changed when a young collector came across one of her canvases in a small shop.\n\n( ① ) For thirty years she painted in a tiny apartment, showing her work to no one. ( ② ) Galleries returned her letters unopened. ( ③ ) He bought the painting, tracked her down, and arranged her first exhibition. ( ④ ) Within a year, critics who had never heard her name were calling her a genius. ( ⑤ )",
     "choices": [
       "①",
       "②",
@@ -644,26 +590,98 @@
       "④",
       "⑤"
     ],
+    "answer": 2,
+    "explanation": "‘He bought the painting’의 He는 주어진 문장의 a young collector를 가리키므로, 그 앞(③)에 들어가야 한다. 그늘 → 전환점 → 주목의 흐름."
+  },
+  {
+    "id": "E31_s2_q09",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 2,
+    "n": 1,
+    "prompt": "밑줄 친 표현의 뜻으로 알맞은 것은?",
+    "passage": "Hundreds of her drawings came to light only when her family opened an old trunk in the attic.",
+    "choices": [
+      "사라지다",
+      "빛을 잃다",
+      "불이 켜지다",
+      "무게가 가벼워지다",
+      "(숨겨졌던 것이) 알려지다, 드러나다"
+    ],
+    "answer": 4,
+    "explanation": "come to light 알려지다, 드러나다. 숨겨져 있던 그림들이 세상에 나왔다는 뜻."
+  },
+  {
+    "id": "E31_s2_q10",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 2,
+    "n": 2,
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "He _______ his whole life to painting, even when no one would buy a single work.",
+    "choices": [
+      "delivered",
+      "denied",
+      "delayed",
+      "devoted",
+      "divided"
+    ],
     "answer": 3,
-    "explanation": "‘these labels’가 가리키는 라벨(label)이 먼저 언급되어야 하므로, 작품 선정(③) 뒤·전시 개막(④) 앞에 들어가야 한다."
+    "explanation": "devote A to B: A를 B에 바치다. 아무도 사 주지 않아도 평생을 그림에 바쳤다."
+  },
+  {
+    "id": "E31_s2_q11",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 2,
+    "n": 3,
+    "prompt": "다음 글의 순서로 가장 적절한 것은?",
+    "passage": "[주어진 글] Some of the most famous painters in history were almost completely unknown while they were alive.\n(A) Years later, a friend or a family member refused to let the work be forgotten and showed it to the world.\n(B) Their paintings were rejected by galleries, and they often lived in poverty.\n(C) Only then did the public finally see what these true art lovers had seen all along.",
+    "choices": [
+      "(A) – (B) – (C)",
+      "(B) – (A) – (C)",
+      "(B) – (C) – (A)",
+      "(C) – (A) – (B)",
+      "(A) – (C) – (B)"
+    ],
+    "answer": 1,
+    "explanation": "무명·가난(B) → 가족·친구가 세상에 알림(A) → 그제야 대중이 알아봄(C)의 ‘그늘 → 전환점 → 주목’ 순서."
   },
   {
     "id": "E31_s2_q12",
     "subUnit": "3-1",
-    "subUnitTitle": "L3 내용·어휘",
+    "subUnitTitle": "L3 어휘·구조",
     "round": 2,
     "n": 4,
-    "prompt": "밑줄 친 표현의 뜻으로 알맞은 것은?",
-    "passage": "Most museum work happens behind the scenes, far from the visitors' eyes.",
+    "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
+    "passage": "Her bold use of color _______ a whole generation of younger artists.",
     "choices": [
-      "우연히",
-      "관객 앞에서",
-      "야외에서",
-      "정시에",
-      "무대 뒤에서, 남들 모르게"
+      "installed",
+      "insured",
+      "inserted",
+      "inspected",
+      "inspired"
     ],
     "answer": 4,
-    "explanation": "behind the scenes 무대 뒤에서, 눈에 띄지 않게. 경비원들의 일이 ‘그늘(shadows)’에 있었다는 흐름과 연결."
+    "explanation": "inspire 영감을 주다. 과감한 색 사용이 후배 화가 세대 전체에 영감을 주었다."
+  },
+  {
+    "id": "E31_s2_q13",
+    "subUnit": "3-1",
+    "subUnitTitle": "L3 어휘·구조",
+    "round": 2,
+    "n": 5,
+    "prompt": "다음 중 ‘무명’의 상태를 나타내는 표현이 아닌 것은?",
+    "passage": "",
+    "choices": [
+      "in the spotlight",
+      "unknown to the public",
+      "overlooked by critics",
+      "in the shadows",
+      "without recognition"
+    ],
+    "answer": 0,
+    "explanation": "in the spotlight는 ‘주목을 받는’ 상태로, 나머지(그늘에 가려진·대중에게 알려지지 않은·비평가에게 간과된·인정받지 못한)와 반대이다."
   },
   {
     "id": "E32_s1_q01",
@@ -672,16 +690,16 @@
     "round": 1,
     "n": 1,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "Not until the exhibition opened _______ how much the guards knew about art.",
+    "passage": "Not until years after his death _______ his true talent.",
     "choices": [
-      "did people realize",
-      "people realized",
-      "people did realize",
-      "realized people",
-      "do people realize"
+      "people recognized",
+      "people did recognize",
+      "did people recognize",
+      "recognized people",
+      "do people recognize"
     ],
-    "answer": 0,
-    "explanation": "Not until이 문두에 오면 주절은 ‘조동사 + 주어 + 동사원형’으로 도치. 과거이므로 did people realize."
+    "answer": 2,
+    "explanation": "Not until이 문두에 오면 주절은 ‘조동사 + 주어 + 동사원형’으로 도치. 과거이므로 did people recognize."
   },
   {
     "id": "E32_s1_q02",
@@ -690,15 +708,15 @@
     "round": 1,
     "n": 2,
     "prompt": "다음 문장을 도치문으로 바르게 바꾼 것은?",
-    "passage": "It was not until 2022 that the museum let its guards curate a show.",
+    "passage": "It was not until 1900 that a gallery agreed to show her paintings.",
     "choices": [
-      "Not until 2022 the museum let its guards curate a show.",
-      "Not until did 2022 the museum let its guards curate a show.",
-      "Not until 2022 did the museum let its guards curate a show.",
-      "Not until 2022 let the museum its guards curate a show.",
-      "Not until 2022 the museum did let its guards curate a show."
+      "Not until 1900 a gallery agreed to show her paintings.",
+      "Not until 1900 a gallery did agree to show her paintings.",
+      "Not until did 1900 a gallery agree to show her paintings.",
+      "Not until 1900 agreed a gallery to show her paintings.",
+      "Not until 1900 did a gallery agree to show her paintings."
     ],
-    "answer": 2,
+    "answer": 4,
     "explanation": "It was not until A that S + V = Not until A + did + S + 동사원형."
   },
   {
@@ -708,16 +726,16 @@
     "round": 1,
     "n": 3,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "_______ in front of the paintings every day, the guards came to love them.",
+    "passage": "_______ in poverty for most of his life, the painter never stopped working.",
     "choices": [
-      "Stand",
-      "Having stand",
-      "Stood",
-      "To standing",
-      "Standing"
+      "Live",
+      "Living",
+      "Lived",
+      "To living",
+      "Having live"
     ],
-    "answer": 4,
-    "explanation": "주어(the guards)가 ‘서 있는’ 능동 관계이므로 현재분사 Standing. (= As they stood …)"
+    "answer": 1,
+    "explanation": "주어(the painter)가 ‘사는’ 능동 관계이므로 현재분사 Living. (= Although he lived …)"
   },
   {
     "id": "E32_s1_q04",
@@ -726,16 +744,16 @@
     "round": 1,
     "n": 4,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "_______ by a professional curator, the guards chose 25 artworks from the collection.",
+    "passage": "_______ by every gallery in the city, she began selling her paintings on the street.",
     "choices": [
-      "Advising",
-      "Advised",
-      "To advise",
-      "Advise",
-      "Being advise"
+      "Rejected",
+      "Rejecting",
+      "To reject",
+      "Reject",
+      "Being reject"
     ],
-    "answer": 1,
-    "explanation": "주어(the guards)가 조언을 ‘받는’ 수동 관계이므로 과거분사 Advised. (Being advised에서 Being 생략)"
+    "answer": 0,
+    "explanation": "주어(she)가 거절을 ‘당하는’ 수동 관계이므로 과거분사 Rejected. (Being rejected에서 Being 생략)"
   },
   {
     "id": "E32_s1_q05",
@@ -744,16 +762,16 @@
     "round": 1,
     "n": 5,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "This is the gallery _______ the guards displayed their favorite works.",
+    "passage": "This is the small town _______ the painter spent his last years.",
     "choices": [
-      "where",
       "which",
       "that",
+      "where",
       "what",
       "whom"
     ],
-    "answer": 0,
-    "explanation": "뒤 절(the guards displayed their favorite works)이 완전하므로 관계부사 where (= in which)."
+    "answer": 2,
+    "explanation": "뒤 절(the painter spent his last years)이 완전하므로 관계부사 where (= in which)."
   },
   {
     "id": "E32_s1_q06",
@@ -762,16 +780,16 @@
     "round": 1,
     "n": 6,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "The painting _______ she chose was created by a local artist.",
+    "passage": "The painting _______ she kept in the attic is now worth millions.",
     "choices": [
       "where",
       "when",
-      "which",
       "what",
+      "which",
       "why"
     ],
-    "answer": 2,
-    "explanation": "chose의 목적어가 빠진 불완전한 절이므로 관계대명사 which(that). 선행사 the painting이 있으므로 what ❌."
+    "answer": 3,
+    "explanation": "kept의 목적어가 빠진 불완전한 절이므로 관계대명사 which(that). 선행사 the painting이 있으므로 what ❌."
   },
   {
     "id": "E32_s1_q07",
@@ -780,16 +798,16 @@
     "round": 1,
     "n": 7,
     "prompt": "다음 분사구문을 부사절로 바꿀 때 빈칸에 가장 알맞은 접속사는?",
-    "passage": "Having no formal training, the guards still curated a moving exhibition.\n= _______ they had no formal training, the guards still curated a moving exhibition.",
+    "passage": "Having no money for paint, he still produced hundreds of drawings.\n= _______ he had no money for paint, he still produced hundreds of drawings.",
     "choices": [
-      "Because",
-      "After",
-      "If",
       "Although",
+      "Because",
+      "If",
+      "After",
       "Unless"
     ],
-    "answer": 3,
-    "explanation": "‘정식 교육을 받지 않았음에도 불구하고’ — still이 단서. 양보의 접속사 Although."
+    "answer": 0,
+    "explanation": "‘물감 살 돈이 없었음에도 불구하고’ — still이 단서. 양보의 접속사 Although."
   },
   {
     "id": "E32_s1_q08",
@@ -800,14 +818,14 @@
     "prompt": "다음 중 어법상 틀린 것은?",
     "passage": "",
     "choices": [
-      "This is the room which the sculpture is displayed.",
-      "The guard, standing quietly, watched the crowd.",
-      "Not until the show ended did the visitors leave.",
-      "Exhausted from the long day, she sat down.",
-      "The artwork that he selected was small but powerful."
+      "Not until the exhibition opened did critics take her seriously.",
+      "This is the studio which the artist painted her masterpiece.",
+      "The painter, working alone at night, filled dozens of canvases.",
+      "Exhausted but happy, he finished the portrait at dawn.",
+      "The letters that his brother kept revealed his struggles."
     ],
-    "answer": 0,
-    "explanation": "‘the sculpture is displayed’는 완전한 절이므로 관계부사 where 또는 in which가 필요하다."
+    "answer": 1,
+    "explanation": "‘the artist painted her masterpiece’는 완전한 절이므로 관계부사 where 또는 in which가 필요하다."
   },
   {
     "id": "E32_s2_q09",
@@ -816,15 +834,15 @@
     "round": 2,
     "n": 1,
     "prompt": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 것은?",
-    "passage": "I still remember the day when the exhibition opened.\n= I still remember the day _______ the exhibition opened.",
+    "passage": "I still remember the day when her first exhibition opened.\n= I still remember the day _______ her first exhibition opened.",
     "choices": [
       "in which",
-      "on which",
+      "of which",
       "for which",
       "at which",
-      "of which"
+      "on which"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "관계부사 when = 전치사 + which. 날짜(the day)에는 전치사 on을 쓰므로 on which."
   },
   {
@@ -834,15 +852,15 @@
     "round": 2,
     "n": 2,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "Not until she looked closely _______ the hidden details in the painting.",
+    "passage": "Not until she looked closely _______ the tiny signature in the corner.",
     "choices": [
       "she noticed",
       "noticed she",
-      "does she notice",
+      "did she notice",
       "she did notice",
-      "did she notice"
+      "does she notice"
     ],
-    "answer": 4,
+    "answer": 2,
     "explanation": "Not until + 절 뒤의 주절은 도치: did she notice. 시제는 looked에 맞춰 과거."
   },
   {
@@ -851,17 +869,17 @@
     "subUnitTitle": "L3 문법",
     "round": 2,
     "n": 3,
-    "prompt": "밑줄 친 Having worked의 의미로 가장 적절한 것은?",
-    "passage": "Having worked at the museum for ten years, he knew every painting by heart.",
+    "prompt": "밑줄 친 Having painted의 의미로 가장 적절한 것은?",
+    "passage": "Having painted for thirty years without a single sale, she finally held her first exhibition.",
     "choices": [
-      "Although he works at the museum for ten years",
-      "If he works at the museum for ten years",
-      "Because he had worked at the museum for ten years",
-      "Unless he had worked at the museum for ten years",
-      "While he will work at the museum for ten years"
+      "Unless she had painted for thirty years without a single sale",
+      "If she paints for thirty years without a single sale",
+      "Although she paints for thirty years without a single sale",
+      "Because she had painted for thirty years without a single sale",
+      "While she will paint for thirty years without a single sale"
     ],
-    "answer": 2,
-    "explanation": "Having p.p.는 주절보다 앞선 일을 나타내는 완료 분사구문. ‘10년간 일했기 때문에’ 모든 그림을 알았다."
+    "answer": 3,
+    "explanation": "Having p.p.는 주절보다 앞선 일을 나타내는 완료 분사구문. ‘30년간 한 점도 못 팔고 그려 온 뒤에’ 첫 전시를 열었다."
   },
   {
     "id": "E32_s2_q12",
@@ -870,7 +888,7 @@
     "round": 2,
     "n": 4,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "_______ what to say, the guard simply pointed at his favorite painting.",
+    "passage": "_______ that his work would one day be famous, the painter gave most of it away.",
     "choices": [
       "Don't know",
       "Knowing not",
@@ -888,16 +906,16 @@
     "round": 2,
     "n": 5,
     "prompt": "다음 문장을 분사구문으로 바르게 바꾼 것은?",
-    "passage": "While he was guarding the gallery, he studied every brushstroke.",
+    "passage": "While he was traveling through the countryside, he sketched everything he saw.",
     "choices": [
-      "Guarded the gallery, he studied every brushstroke.",
-      "He guarding the gallery, he studied every brushstroke.",
-      "To guard the gallery, he studied every brushstroke.",
-      "Guarding the gallery, he studied every brushstroke.",
-      "Being guarded the gallery, he studied every brushstroke."
+      "Traveled through the countryside, he sketched everything he saw.",
+      "Being traveled through the countryside, he sketched everything he saw.",
+      "To travel through the countryside, he sketched everything he saw.",
+      "He traveling through the countryside, he sketched everything he saw.",
+      "Traveling through the countryside, he sketched everything he saw."
     ],
-    "answer": 3,
-    "explanation": "접속사·주어 생략, was guarding → guarding. 능동이므로 현재분사."
+    "answer": 4,
+    "explanation": "접속사·주어 생략, was traveling → traveling. 능동이므로 현재분사."
   },
   {
     "id": "E32_s2_q14",
@@ -906,15 +924,15 @@
     "round": 2,
     "n": 6,
     "prompt": "다음 빈칸에 들어갈 말로 가장 적절한 것은?",
-    "passage": "The reason _______ the guards chose that painting surprised everyone.",
+    "passage": "The reason _______ the galleries rejected her work is hard to understand today.",
     "choices": [
       "which",
+      "why",
       "what",
-      "whom",
       "where",
-      "why"
+      "whom"
     ],
-    "answer": 4,
+    "answer": 1,
     "explanation": "선행사 the reason + 완전한 절 → 관계부사 why (= for which)."
   },
   {
@@ -924,7 +942,7 @@
     "round": 2,
     "n": 7,
     "prompt": "다음 밑줄 친 부분 중 어법상 틀린 것은?",
-    "passage": "① Not until the lights came on ② did the visitors notice the small painting ③ hanging in the corner, ④ that a guard had chosen ⑤ because it reminded him of home.",
+    "passage": "① Not until the collector visited the shop ② did anyone notice the small canvas ③ hanging near the door, ④ that the old painter had made ⑤ decades earlier.",
     "choices": [
       "①",
       "②",
